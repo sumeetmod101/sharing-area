@@ -1,0 +1,801 @@
+jobRunId,ts,dbName,tableName,specification,kind,name,check,severity,errorMessage,success
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,NonNegativeConstraint,Compliance,BUYER_CODE,ERROR,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"TASK_CODE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,NonNegativeConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Compliance,DESCRIPTION,WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,NonNegativeConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"ITEM_ID,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,NonNegativeConstraint,Completness,"TASK_CODE,None",ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,"TASK_CODE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Completness,"PENALTY_VALUE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,IsContainedInConstraint,BASIC,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"TASK_CODE,None",WARNING,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,ComplianceConstraint,Uniqueness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,IsContainedInConstraint,Uniqueness,DESCRIPTION,WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,IsContainedInConstraint,Compliance,"PENALTY_VALUE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,ComplianceConstraint,Compliance,DESCRIPTION,WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,ComplianceConstraint,Uniqueness,"ITEM_ID,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,IsContainedInConstraint,Completness,DESCRIPTION,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,BUYER_CODE,ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,ComplianceConstraint,Uniqueness,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"ITEM_ID,None",WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",ERROR,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,ComplianceConstraint,Completness,"PENALTY_MARK,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,"TASK_CODE,None",ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,ComplianceConstraint,BASIC,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,HasDataTypeConstraints,Uniqueness,"ITEM_ID,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"TASK_CODE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,NonNegativeConstraint,Completness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Completness,"VERSION_NUMBER>1,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,ComplianceConstraint,Compliance,DESCRIPTION,ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,BUYER_CODE,ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Completness,DESCRIPTION,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,IsContainedInConstraint,Compliance,"TASK_CODE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,BASIC,"ITEM_ID,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,DESCRIPTION,ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Compliance,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"TASK_CODE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,ComplianceConstraint,BASIC,"PENALTY_MARK,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,ComplianceConstraint,Compliance,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,BUYER_CODE,ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"PENALTY_MARK,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,ComplianceConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,BASIC,"ITEM_ID,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"PENALTY_MARK,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"TASK_CODE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Uniqueness,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,BUYER_CODE,ERROR,Input data not in correct Format,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,HasDataTypeConstraints,Completness,"PENALTY_MARK,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,PRICE,ComplianceConstraint,Completness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,BUYERS,NonNegativeConstraint,Completness,"PENALTY_VALUE,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+100,1981-02-14T12:04:15,GoldESP,BUYERS,IsContainedInConstraint,Completness,BUYER_CODE,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_MARK,None",WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,PRICE,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+100,1981-02-14T12:04:15,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Completness,DESCRIPTION,WARNING,,True
+100,1981-02-14T12:04:15,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,ComplianceConstraint,Uniqueness,"ITEM_ID,None",ERROR,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"PENALTY_MARK,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,"PENALTY_MARK,None",WARNING,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,BUYER_CODE,ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,NonNegativeConstraint,Uniqueness,"PENALTY_MARK,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Completness,"ITEM_ID,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_VALUE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Completness,"ITEM_ID,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Compliance,BUYER_CODE,WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_MARK,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,HasDataTypeConstraints,Completness,"VERSION_NUMBER,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,BASIC,"VERSION_NUMBER,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"TASK_CODE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,BUYER_CODE,WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,IsContainedInConstraint,Compliance,BUYER_CODE,ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"ITEM_ID,None",ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_VALUE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,DESCRIPTION,ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,IsContainedInConstraint,BASIC,"TASK_CODE,None",WARNING,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Completness,DESCRIPTION,ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,"TASK_CODE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,ComplianceConstraint,Completness,"TASK_CODE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,IsContainedInConstraint,Compliance,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Compliance,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,BUYERS,IsContainedInConstraint,Completness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"TASK_CODE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,NonNegativeConstraint,Completness,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"PENALTY_MARK,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,NonNegativeConstraint,Compliance,"ITEM_ID,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"ITEM_ID,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Completness,"TASK_CODE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,ComplianceConstraint,Completness,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,DESCRIPTION,ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,IsContainedInConstraint,Compliance,"ITEM_ID,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,DESCRIPTION,WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"PENALTY_VALUE,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,NonNegativeConstraint,Completness,"ITEM_ID,None",ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,IsContainedInConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,WARNING,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,NonNegativeConstraint,Completness,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"TASK_CODE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,BUYER_CODE,WARNING,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,DESCRIPTION,ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,BUYER_CODE,ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,BUYER_CODE,WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Compliance,"TASK_CODE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,IsContainedInConstraint,Completness,"VERSION_NUMBER,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,DESCRIPTION,WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Compliance,"ITEM_ID,None",WARNING,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER>1,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,BASIC,"PENALTY_VALUE,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,TASK_PENALTIES,ComplianceConstraint,Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,ComplianceConstraint,Compliance,BUYER_CODE,ERROR,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"PENALTY_MARK,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+101,1996-11-22T04:49:11,GoldESP,PRICE,IsContainedInConstraint,BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+101,1996-11-22T04:49:11,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,"VERSION_NUMBER>1,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"TASK_CODE,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,DESCRIPTION,ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,Compliance,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,HasDataTypeConstraints,Compliance,"PENALTY_MARK,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",BASIC,"ITEM_ID,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,DESCRIPTION,ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Compliance,"TASK_CODE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"VERSION_NUMBER,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,ComplianceConstraint,Completness,BUYER_CODE,WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,IsContainedInConstraint,Completness,"PENALTY_MARK,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,Completness,"PENALTY_MARK,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,Compliance,"TASK_CODE,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"TASK_CODE,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,HasDataTypeConstraints,Completness,"TASK_CODE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"TASK_CODE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,NonNegativeConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Compliance,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"TASK_CODE,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,ComplianceConstraint,Compliance,DESCRIPTION,WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,NonNegativeConstraint,Compliance,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Completness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"TASK_CODE,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,BUYER_CODE,ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"ITEM_ID,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,ComplianceConstraint,BASIC,"PENALTY_VALUE,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,IsContainedInConstraint,Compliance,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_VALUE,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,ComplianceConstraint,Completness,DESCRIPTION,WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,HasDataTypeConstraints,Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,BUYER_CODE,WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Compliance,"ITEM_ID,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,ComplianceConstraint,BASIC,DESCRIPTION,ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"TASK_CODE,None",WARNING,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,NonNegativeConstraint,BASIC,DESCRIPTION,WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,Compliance,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"TASK_CODE,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,BASIC,"PENALTY_MARK,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,"TASK_CODE,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,DESCRIPTION,ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"TASK_CODE,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,BUYERS,IsContainedInConstraint,BASIC,"ITEM_ID,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Compliance,BUYER_CODE,WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,IsContainedInConstraint,BASIC,"PENALTY_MARK,None",WARNING,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_MARK,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,BUYER_CODE,WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"ITEM_ID,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,BUYERS,IsContainedInConstraint,Completness,"ITEM_ID,None",WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,"ITEM_ID,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"ITEM_ID,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,HasDataTypeConstraints,Compliance,"VERSION_NUMBER,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,BUYER_CODE,ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,IsContainedInConstraint,Completness,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,PRICE,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+102,1996-06-09T19:35:02,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER,None",WARNING,,True
+102,1996-06-09T19:35:02,GoldESP,USER_REF1,ComplianceConstraint,BASIC,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Compliance,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+102,1996-06-09T19:35:02,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"ITEM_ID,None",ERROR,,True
+102,1996-06-09T19:35:02,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",WARNING,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"PENALTY_MARK,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Compliance,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,ComplianceConstraint,Uniqueness,"ITEM_ID,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,PRICE,HasDataTypeConstraints,Uniqueness,"TASK_CODE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_VALUE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"TASK_CODE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,DESCRIPTION,WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,NonNegativeConstraint,Completness,"TASK_CODE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,PRICE,NonNegativeConstraint,Compliance,"TASK_CODE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,ComplianceConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,HasDataTypeConstraints,Uniqueness,BUYER_CODE,ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,BASIC,DESCRIPTION,WARNING,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,DESCRIPTION,ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,"PENALTY_MARK,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,NonNegativeConstraint,Compliance,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,PRICE,IsContainedInConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_MARK,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,IsContainedInConstraint,Completness,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,BUYER_CODE,ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,PRICE,NonNegativeConstraint,Uniqueness,"ITEM_ID,None",WARNING,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,DESCRIPTION,WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"VERSION_NUMBER,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"ITEM_ID,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,PRICE,IsContainedInConstraint,Completness,"ITEM_ID,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,ComplianceConstraint,Completness,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,ComplianceConstraint,Uniqueness,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",BASIC,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",WARNING,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,ComplianceConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,ComplianceConstraint,BASIC,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,BASIC,"PENALTY_VALUE,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,DESCRIPTION,WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,IsContainedInConstraint,Completness,BUYER_CODE,WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"TASK_CODE,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"TASK_CODE,None",ERROR,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,NonNegativeConstraint,Uniqueness,BUYER_CODE,WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,IsContainedInConstraint,BASIC,BUYER_CODE,WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+103,2010-05-04T03:46:50,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Compliance,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,PRICE,HasDataTypeConstraints,Compliance,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Completness,"VERSION_NUMBER,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,BUYER_CODE,WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"PENALTY_VALUE,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,BUYER_CODE,WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"ITEM_ID,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+103,2010-05-04T03:46:50,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,BASIC,BUYER_CODE,ERROR,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,"ITEM_ID,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Completness,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,ComplianceConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,"ITEM_ID,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_MARK,None",WARNING,,True
+103,2010-05-04T03:46:50,GoldESP,BUYERS,NonNegativeConstraint,BASIC,DESCRIPTION,ERROR,,True
+103,2010-05-04T03:46:50,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"PENALTY_VALUE,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,DESCRIPTION,WARNING,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",BASIC,BUYER_CODE,ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"VERSION_NUMBER,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,NonNegativeConstraint,BASIC,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,DESCRIPTION,ERROR,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Compliance,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"TASK_CODE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"ITEM_ID,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"ITEM_ID,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,NonNegativeConstraint,Compliance,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,NonNegativeConstraint,Compliance,DESCRIPTION,WARNING,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"ITEM_ID,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,BUYER_CODE,WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,HasDataTypeConstraints,Completness,"PENALTY_VALUE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,DESCRIPTION,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,ComplianceConstraint,Compliance,"PENALTY_MARK,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,DESCRIPTION,ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"ITEM_ID,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",WARNING,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,DESCRIPTION,ERROR,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,HasDataTypeConstraints,BASIC,"ITEM_ID,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,ComplianceConstraint,Completness,"PENALTY_MARK,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,DESCRIPTION,WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",ERROR,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,BUYER_CODE,ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"TASK_CODE,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,DESCRIPTION,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,IsContainedInConstraint,Compliance,"ITEM_ID,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,DESCRIPTION,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,BUYER_CODE,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Compliance,"VERSION_NUMBER,None",WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Completness,"VERSION_NUMBER>1,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,BUYER_CODE,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,BUYER_CODE,WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,DESCRIPTION,ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,BUYER_CODE,WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,BUYER_CODE,WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,IsContainedInConstraint,Uniqueness,BUYER_CODE,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,HasDataTypeConstraints,Completness,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,HasDataTypeConstraints,Uniqueness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,DESCRIPTION,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,DESCRIPTION,ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,IsContainedInConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,NonNegativeConstraint,Completness,DESCRIPTION,WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,DESCRIPTION,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,HasDataTypeConstraints,Completness,"PENALTY_VALUE,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,ComplianceConstraint,Compliance,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"ITEM_ID,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,USER_REF1,ComplianceConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Compliance,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,NonNegativeConstraint,BASIC,"ITEM_ID,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,ComplianceConstraint,Compliance,BUYER_CODE,WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+104,1983-10-01T19:21:29,GoldESP,PRICE,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+104,1983-10-01T19:21:29,GoldESP,BUYERS,ComplianceConstraint,BASIC,"TASK_CODE,None",WARNING,Input data not in correct Format,False
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"ITEM_ID,None",WARNING,,True
+104,1983-10-01T19:21:29,GoldESP,BUYERS,ComplianceConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+104,1983-10-01T19:21:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Uniqueness,"VERSION_NUMBER,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,HasDataTypeConstraints,Uniqueness,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_VALUE,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,BUYER_CODE,ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,DESCRIPTION,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,ComplianceConstraint,Compliance,"ITEM_ID,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,NonNegativeConstraint,Completness,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,DESCRIPTION,ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,DESCRIPTION,WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,ComplianceConstraint,Completness,"PENALTY_MARK,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"VERSION_NUMBER,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,IsContainedInConstraint,Compliance,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,DESCRIPTION,WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,IsContainedInConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"ITEM_ID,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"ITEM_ID,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,NonNegativeConstraint,BASIC,BUYER_CODE,WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Compliance,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,BASIC,DESCRIPTION,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"TASK_CODE,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,NonNegativeConstraint,BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,ComplianceConstraint,Completness,"ITEM_ID,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,"ITEM_ID,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,BUYER_CODE,ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Compliance,"PENALTY_VALUE,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,IsContainedInConstraint,Completness,"PENALTY_MARK,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,IsContainedInConstraint,Completness,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,ComplianceConstraint,Completness,BUYER_CODE,WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,NonNegativeConstraint,Compliance,"PENALTY_VALUE,None",ERROR,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"PENALTY_MARK,None",ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Compliance,"PENALTY_MARK,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Uniqueness,"ITEM_ID,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"PENALTY_VALUE,None",ERROR,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_VALUE,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Compliance,"PENALTY_MARK,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,ComplianceConstraint,Uniqueness,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,PRICE,IsContainedInConstraint,BASIC,DESCRIPTION,ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"TASK_CODE,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Completness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,PRICE,ComplianceConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,PRICE,NonNegativeConstraint,Compliance,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"ITEM_ID,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"ITEM_ID,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Completness,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,BUYER_CODE,WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,ComplianceConstraint,BASIC,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,HasDataTypeConstraints,BASIC,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"ITEM_ID,None",ERROR,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Compliance,"VERSION_NUMBER,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,PRICE,ComplianceConstraint,Completness,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,IsContainedInConstraint,Completness,BUYER_CODE,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,ComplianceConstraint,Compliance,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,BUYER_CODE,ERROR,Unique Constraint Failure,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+105,2019-06-25T21:05:57,GoldESP,USER_REF1,HasDataTypeConstraints,BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,IsContainedInConstraint,BASIC,BUYER_CODE,WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Uniqueness,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"VERSION_NUMBER,None",WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",WARNING,Input data not in correct Format,False
+105,2019-06-25T21:05:57,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,DESCRIPTION,WARNING,,True
+105,2019-06-25T21:05:57,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Uniqueness,DESCRIPTION,ERROR,,True
+105,2019-06-25T21:05:57,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Compliance,BUYER_CODE,ERROR,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_MARK,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",BASIC,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Compliance,"PENALTY_VALUE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,"PENALTY_VALUE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,BASIC,"PENALTY_MARK,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,NonNegativeConstraint,Completness,BUYER_CODE,WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",BASIC,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,"VERSION_NUMBER>1,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Compliance,"ITEM_ID,None",WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Compliance,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,BUYER_CODE,WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"TASK_CODE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,NonNegativeConstraint,Completness,"TASK_CODE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,"PENALTY_MARK,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",ERROR,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,DESCRIPTION,ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,NonNegativeConstraint,Compliance,"ITEM_ID,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"TASK_CODE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Compliance,"VERSION_NUMBER,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"PENALTY_MARK,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_MARK,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,IsContainedInConstraint,Compliance,"PENALTY_MARK,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,NonNegativeConstraint,BASIC,DESCRIPTION,WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_MARK,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"ITEM_ID,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,BUYER_CODE,ERROR,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,ComplianceConstraint,BASIC,"VERSION_NUMBER,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_VALUE,None",ERROR,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Completness,"PENALTY_VALUE,None",WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Completness,"VERSION_NUMBER,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Completness,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,IsContainedInConstraint,BASIC,DESCRIPTION,ERROR,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,HasDataTypeConstraints,Uniqueness,"ITEM_ID,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,DESCRIPTION,WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,IsContainedInConstraint,Compliance,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,BUYER_CODE,WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,ComplianceConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,DESCRIPTION,WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,IsContainedInConstraint,Compliance,DESCRIPTION,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,HasDataTypeConstraints,BASIC,"PENALTY_MARK,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_VALUE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,ComplianceConstraint,BASIC,DESCRIPTION,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Uniqueness,"ITEM_ID,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,ComplianceConstraint,Compliance,DESCRIPTION,WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,NonNegativeConstraint,BASIC,"PENALTY_MARK,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,BASIC,"VERSION_NUMBER,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,BUYER_CODE,WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,IsContainedInConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"ITEM_ID,None",WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,IsContainedInConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,HasDataTypeConstraints,Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,IsContainedInConstraint,BASIC,"PENALTY_VALUE,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,BUYER_CODE,WARNING,Value cannot be null,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,ComplianceConstraint,BASIC,"ITEM_ID,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,IsContainedInConstraint,Completness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,BUYER_CODE,ERROR,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"VERSION_NUMBER>1,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Completness,"TASK_CODE,None",WARNING,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"VERSION_NUMBER>1,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"PENALTY_MARK,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,DESCRIPTION,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,DESCRIPTION,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,ComplianceConstraint,Compliance,"VERSION_NUMBER,None",ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,DESCRIPTION,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,DESCRIPTION,ERROR,,True
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+106,1990-07-21T02:37:13,GoldESP,USER_REF1,NonNegativeConstraint,Compliance,BUYER_CODE,WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"ITEM_ID,None",WARNING,Input data not in correct Format,False
+106,1990-07-21T02:37:13,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,Completness,"ITEM_ID,None",WARNING,,True
+106,1990-07-21T02:37:13,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Value doesnot meet constraint requirement,False
+106,1990-07-21T02:37:13,GoldESP,BUYERS,ComplianceConstraint,BASIC,"PENALTY_MARK,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"TASK_CODE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Uniqueness,"TASK_CODE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,BUYER_CODE,WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Completness,"ITEM_ID,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Compliance,"TASK_CODE,None",ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"VERSION_NUMBER,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_VALUE,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"TASK_CODE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",Compliance,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,HasDataTypeConstraints,Completness,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,NonNegativeConstraint,Completness,DESCRIPTION,ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,ComplianceConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"PENALTY_MARK,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,NonNegativeConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,WARNING,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,HasDataTypeConstraints,Completness,DESCRIPTION,ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"ITEM_ID,None",WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"VERSION_NUMBER,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,NonNegativeConstraint,Completness,"PENALTY_VALUE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER>1,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,ComplianceConstraint,Compliance,"VERSION_NUMBER>1,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,ComplianceConstraint,BASIC,"PENALTY_VALUE,None",WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Compliance,"PENALTY_VALUE,None",WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,IsContainedInConstraint,Uniqueness,"ITEM_ID,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,IsContainedInConstraint,Completness,"VERSION_NUMBER>1,None",ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",BASIC,"TASK_CODE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,HasDataTypeConstraints,Uniqueness,"TASK_CODE,None",WARNING,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,NonNegativeConstraint,Completness,"PENALTY_VALUE,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",BASIC,"PENALTY_MARK,None",WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,HasDataTypeConstraints,BASIC,"PENALTY_VALUE,None",ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,HasDataTypeConstraints,Completness,"PENALTY_MARK,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,IsContainedInConstraint,Compliance,"TASK_CODE,None",ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,IsContainedInConstraint,Completness,"VERSION_NUMBER>1,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",BASIC,"TASK_CODE,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,NonNegativeConstraint,BASIC,"ITEM_ID,None",ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,IsContainedInConstraint,Completness,BUYER_CODE,WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Compliance,DESCRIPTION,WARNING,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Compliance,BUYER_CODE,WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,BUYER_CODE,ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"TASK_CODE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,ComplianceConstraint,Compliance,"ITEM_ID,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,NonNegativeConstraint,Completness,"ITEM_ID,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Compliance,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"VERSION_NUMBER,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_MARK,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Compliance,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(id,None))",BASIC,"VERSION_NUMBER,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,ComplianceConstraint,Completness,BUYER_CODE,ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,HasDataTypeConstraints,Compliance,"PENALTY_MARK,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER>1,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,IsContainedInConstraint,Completness,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,IsContainedInConstraint,Completness,"VERSION_NUMBER,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,IsContainedInConstraint,Compliance,DESCRIPTION,ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Compliance,"PENALTY_MARK,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,NonNegativeConstraint,Completness,"ITEM_ID,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,IsContainedInConstraint,Completness,BUYER_CODE,ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,IsContainedInConstraint,BASIC,"VERSION_NUMBER>1,None",WARNING,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,IsContainedInConstraint,Uniqueness,DESCRIPTION,WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(id,None))",Completness,"PENALTY_MARK,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,ComplianceConstraint,BASIC,"VERSION_NUMBER,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Compliance,DESCRIPTION,WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"PENALTY_VALUE,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,ComplianceConstraint,Completness,"TASK_CODE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,NonNegativeConstraint,Uniqueness,"ITEM_ID,None",WARNING,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,NonNegativeConstraint,Completness,BUYER_CODE,WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Completness,"ITEM_ID,None",ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,NonNegativeConstraint,BASIC,"VERSION_NUMBER,None",ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,IsContainedInConstraint,BASIC,"VERSION_NUMBER,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"TASK_CODE,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,BASIC,DESCRIPTION,ERROR,Value cannot be null,False
+107,1972-12-06T20:47:29,GoldESP,BUYERS,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,HasDataTypeConstraints,Uniqueness,"PENALTY_VALUE,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",BASIC,"VERSION_NUMBER,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,ComplianceConstraint,BASIC,"TASK_CODE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Uniqueness,"TASK_CODE,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,BUYER_CODE,WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,ComplianceConstraint,BASIC,"PENALTY_VALUE,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"ITEM_ID,None",ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Uniqueness,"PENALTY_VALUE,None",ERROR,Unique Constraint Failure,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,IsContainedInConstraint,Uniqueness,"PENALTY_MARK,None",ERROR,Value doesnot meet constraint requirement,False
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(User,id,None))",Uniqueness,"ITEM_ID,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,NonNegativeConstraint,Completness,"VERSION_NUMBER,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"UniquenessConstraint(Uniqueness(List(ITEM_ID),None))",Compliance,"ITEM_ID,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,HasDataTypeConstraints,Compliance,"ITEM_ID,None",ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,PRICE,"CompletnessConstraint(Completness(id,None))",Compliance,"VERSION_NUMBER>1,None",WARNING,,True
+107,1972-12-06T20:47:29,GoldESP,TASK_PENALTIES,"CompletnessConstraint(Completness(User,id,None))",Completness,BUYER_CODE,ERROR,,True
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",Completness,"VERSION_NUMBER,None",ERROR,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,USER_REF1,"CompletnessConstraint(Completness(id,None))",Uniqueness,"VERSION_NUMBER,None",WARNING,Input data not in correct Format,False
+107,1972-12-06T20:47:29,GoldESP,ASSET_REQUIRED_ON_RECEIPT,"CompletnessConstraint(Completness(User,id,None))",BASIC,"PENALTY_VALUE,None",ERROR,Unique Constraint Failure,False
