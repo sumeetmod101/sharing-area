@@ -1,0 +1,30 @@
+# read in csv file
+with open(CSV_PATH, "r") as file:
+    # read as dict
+    csv_file = csv.DictReader(file)
+
+    for col in csv_file:
+        table_name = col["TABLE_NAME"]
+
+        # create entity if needed
+        if table_name not in entities:
+            entities[table_name] = {
+                "cols": []
+            }
+
+        # add column
+        e = entities.get(table_name)
+        e["cols"].append({
+            "name": col["COLUMN_NAME"],
+            "type": col["DATA_TYPE"],
+            "len": col["DATA_LENGTH"]
+        })
+
+print(f"generated {len(entities)} entities")
+
+
+
+with open(ERD_PATH, "w") as erd_file:
+    erd_file.write("\n".join(xml))
+
+def generateMissingAttribute():
