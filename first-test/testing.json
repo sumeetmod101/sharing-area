@@ -1,0 +1,39 @@
+{
+  "name" : "testing",
+  "description" : "",
+  "role" : "arn:aws:iam::408254426159:role/aws-glue-admin",
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  },
+  "command" : {
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-408254426159-eu-west-1/scripts/test_script",
+    "pythonVersion" : "3"
+  },
+  "defaultArguments" : {
+    "--enable-metrics" : "true",
+    "--enable-spark-ui" : "true",
+    "--spark-event-logs-path" : "s3://aws-glue-assets-408254426159-eu-west-1/sparkHistoryLogs/",
+    "--enable-job-insights" : "false",
+    "--enable-glue-datacatalog" : "true",
+    "--enable-continuous-cloudwatch-log" : "true",
+    "--job-bookmark-option" : "job-bookmark-disable",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-408254426159-eu-west-1/temporary/"
+  },
+  "maxRetries" : 0,
+  "allocatedCapacity" : 10,
+  "timeout" : 2880,
+  "maxCapacity" : 10.0,
+  "glueVersion" : "4.0",
+  "numberOfWorkers" : 10,
+  "workerType" : "G.1X",
+  "executionClass" : "STANDARD",
+  "codeGenConfigurationNodes" : "{\"node-1\":{\"S3CsvSource\":{\"AdditionalOptions\":{\"EnableSamplePath\":false,\"SamplePath\":\"s3://sumeet-kenisis-orderupdate/2020/03/03/15/product-delivery-1-2020-03-03-15-41-18-e5e34c5b-afc1-44d8-a875-38b566f9489a\"},\"Escaper\":\"\",\"Exclusions\":[],\"Name\":\"S3 bucket\",\"OptimizePerformance\":false,\"OutputSchemas\":[{\"Columns\":[]}],\"Paths\":[\"s3://sumeet-kenisis-orderupdate/2020/\"],\"QuoteChar\":\"quote\",\"Recurse\":true,\"Separator\":\"comma\",\"WithHeader\":true}},\"node-2\":{\"ApplyMapping\":{\"Inputs\":[\"node-1\"],\"Mapping\":[],\"Name\":\"Change Schema\"}}}",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "sharing-area",
+    "branch" : "main",
+    "folder" : "first-test"
+  }
+}
