@@ -1,0 +1,2287 @@
+<ERD:ERD_CF_Entitys id="15000">
+  <ERD:ERD_CF_Entity id="15001">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_ACTIVITY</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15002">
+      <ERD:ERD_CF_Attribute id="15003">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15004">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15005">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ATUD_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15006">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ATUD_END_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15007">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ATUD_CONTROL_NUMBER (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15008">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_COUNTER_TYPE (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15009">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_COUNTER_UNIT (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15010">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">START_ODO (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15011">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">END_ODO (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15012">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_USAGE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15013">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_OWNER_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15014">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_OWNER_NAME (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15015">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_NAME (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15016">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_PLANNED_START (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15017">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_PLANNED_END (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15018">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_SPECIAL_INSTRUCTIONS (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15019">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">UNIT_IDENTITY_NUMBER (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15020">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DESTINATION (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15021">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FUEL_DRAWN_SUM (VARCHAR2, 15)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15022">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DESCRIPTION (VARCHAR2, 2000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15023">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DRIVER_NAME (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15024">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DRIVER_SERVICE_NUMBER (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15025">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DRIVER_RANK (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15026">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AUTH_SERVICE_NUMBER (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15027">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AUTH_SURNAME (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15028">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AUTH_INITIALS (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15029">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_TYPE (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15030">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_TYPE_DESCRIPTION (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15031">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTIVITY_ID (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15032">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_ACT_SEC_USAGE</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15033">
+      <ERD:ERD_CF_Attribute id="15034">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15035">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15036">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_USAGE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15037">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAMETER_NAME (VARCHAR2, 30 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15038">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">START_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15039">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">END_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15040">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_ASSET_FLEET_IDENTS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15041">
+      <ERD:ERD_CF_Attribute id="15042">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15043">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FLEET_IDENT_ID (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15044">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">READINESS_CODE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15045">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_CALCULATED_OPER_PARAM</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15046">
+      <ERD:ERD_CF_Attribute id="15047">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OPER_PARAM_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15048">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15049">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_1_DESC (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15050">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_2_DESC (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15051">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_3_DESC (VARCHAR2, 64)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15052">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAMETER_NAME (VARCHAR2, 30 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15053">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAM_CODE (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15054">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CALCULATION_FORMULA (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15055">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_ADR_QUALS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15056">
+      <ERD:ERD_CF_Attribute id="15057">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ADR_QUAL_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15058">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15059">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ADR_QUALIFICATIONS (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15060">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MODULE_EXPIRY_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15061">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_COMPETENCIES</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15062">
+      <ERD:ERD_CF_Attribute id="15063">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COMPETENCY_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15064">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15065">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COMPETENCY_NAME (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15066">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COMPETENCY_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15067">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_DETAILS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15068">
+      <ERD:ERD_CF_Attribute id="15069">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15070">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SERVICE_NUMBER (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15071">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SURNAME (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15072">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">INITIALS (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15073">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RANK (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15074">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RANK_DESCRIPTION (VARCHAR2, 1000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15075">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRADE (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15076">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRADE_DESCRIPTION (VARCHAR2, 200)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15077">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REGIMENT (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15078">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SERVICE (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15079">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OWNING_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15080">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HOLDING_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15081">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HAS_LOGIN (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15082">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_DRIVING_LICENCE</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15083">
+      <ERD:ERD_CF_Attribute id="15084">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15085">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DVLA_LICENCE_NUMBER (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15086">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DVLA_LICENCE_EXPIRY_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15087">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FMT_600_NUMBER (VARCHAR2, 25)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15088">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FMT_600_TYPE_ID (NUMBER, [10, 0])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15089">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FMT_600_TYPE_DESCRIPTION (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15090">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FMT_600_EXPIRATION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15091">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LICENCE_RESTRICTION_END_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15092">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LICENCE_RESTRICTION_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15093">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_FUNCTIONAL_GROUPS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15094">
+      <ERD:ERD_CF_Attribute id="15095">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15096">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FUNC_GROUP_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15097">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FUNCTIONAL_GROUP (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15098">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_HWC_QUALS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15099">
+      <ERD:ERD_CF_Attribute id="15100">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HWC_BRIEF_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15101">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15102">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HWC_BRIEF_NAME (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15103">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HWC_BRIEF_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15104">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LOCATION_CODE (VARCHAR2, 51)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15105">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">GAINED_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15106">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EXPIRY_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15107">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSIGNED_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15108">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AUTHORIZED_BY (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15109">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSIGNED_BY_EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15110">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSIGNED_BY_ORG_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15111">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">UPDATED_BY_EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15112">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">UPDATED_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15113">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EMP_TRADE_QUALS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15114">
+      <ERD:ERD_CF_Attribute id="15115">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMPLOYEE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15116">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">QUALIFICATION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15117">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ISSUE_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15118">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_1_DESC (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15119">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRADE_QUALIFICATION (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15120">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CAPABILITY_GRP (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15121">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">GAINED_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15122">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REVIEW_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15123">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CERTIFIER (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15124">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SUSPENDED (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15125">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_EVENT_USAGE</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15126">
+      <ERD:ERD_CF_Attribute id="15127">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15128">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15129">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LOG_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15130">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_USAGE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15131">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAMETER_NAME (VARCHAR2, 30 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15132">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">START_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15133">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">END_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15134">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_INSTANCES</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15135">
+      <ERD:ERD_CF_Attribute id="15136">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PART_TYPE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15137">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15138">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15139">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SERIAL_NUMBER (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15140">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ERM (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15141">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CUSTODIAN_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15142">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CUSTODIAN_UNIT (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15143">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_FAMILY_GROUP (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15144">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HOLDER_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15145">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HOLDER_NAME (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15146">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINTENANCE_GROUP (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15147">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ALTERNATE_ERM (VARCHAR2, 10)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15148">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_STATE (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15149">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">IN_USE_PLACEMENT (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15150">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AC_STATE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15151">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AC_STATE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15152">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COLOUR (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15153">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STORAGE_AREA (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15154">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STORAGE_LOCATION (VARCHAR2, 13)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15155">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_COUNTER_TYPE (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15156">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_COUNTER_UNIT (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15157">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_LAST_OVERHAUL (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15158">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DGVW (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15159">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAM (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15160">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">GTW (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15161">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ULW (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15162">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PLATFORM_BCIP (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15163">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WARRANTY_EXPIRATION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15164">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_INTO_SERVICE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15165">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">READINESS_LEVEL (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15166">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_END_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15167">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HOLDER_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15168">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CUSTODIAN_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15169">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ADR_COMPLIANT (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15170">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ADR_CERT_DUE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15171">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_UID (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15172">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OUT_OF_SERVICE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15173">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MODIFICATION_STRIKE (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15174">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LOCATION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15175">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LAST_REBIRTH_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15176">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OWNING_DEPOT_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15177">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ADDL_OWN_DEPOT_DS_IDS (VARCHAR2, 200)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15178">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_INVENTORY_LOCATIONS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15179">
+      <ERD:ERD_CF_Attribute id="15180">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STOCK_ACCNT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15181">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LOCATION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15182">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OWNING_ORG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15183">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">JAMES_STOCK_ACCOUNT_NAME (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15184">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PHYSICAL_LOC_NUMBER (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15185">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PHYSICAL_LOC_DESCRIPTION (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15186">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DISABLED (VARCHAR2, 1)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15187">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_STOCK_ACCOUNT_DISABLED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15188">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MAINT_ASSOC</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15189">
+      <ERD:ERD_CF_Attribute id="15190">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PART_TYPE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15191">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TEMPLATE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15192">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RULE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15193">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15194">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NAME (VARCHAR2, 150)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15195">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_INTERVAL (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15196">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COUNTER (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15197">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINTENANCE_GROUP (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15198">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_LEVEL (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15199">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRIG_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15200">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EST_WORK_OBJECT_REPAIR_TIME (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15201">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINTENANCE_SENTENCE (VARCHAR2, 2000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15202">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15203">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MAINT_ENV_HIST</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15204">
+      <ERD:ERD_CF_Attribute id="15205">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15206">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ENV_HIST_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15207">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_ENVIRONMENT_NAME (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15208">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_IN (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15209">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_OUT (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15210">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MAINT_FORECAST</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15211">
+      <ERD:ERD_CF_Attribute id="15212">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FORECAST_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15213">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15214">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TEMPLATE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15215">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LAST_MAINTENANCE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15216">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DUE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15217">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DAYS_TILL_DUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15218">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINTENANCE_STATUS (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15219">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRIGGER_TYPE (VARCHAR2, 15)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15220">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MAINT_HISTORY</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15221">
+      <ERD:ERD_CF_Attribute id="15222">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_HIST_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15223">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_USAGE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15224">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15225">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_TEMPLATE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15226">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15227">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_ENVIRONMENT_NAME (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15228">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTUAL_COMPLETION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15229">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_RECORDED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15230">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINTENANCE_STATUS (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15231">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CUMULATIVE_AT_CLOSED (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15232">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CURRENT_USAGE_AT_CLOSE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15233">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OPER_PARAM_DISPLAY_ID (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15234">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MAINT_MOD_LINK</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15235">
+      <ERD:ERD_CF_Attribute id="15236">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAINT_MOD_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15237">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15238">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_TYPE (VARCHAR2, 12)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15239">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MODEL_ALTERNATIVES</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15240">
+      <ERD:ERD_CF_Attribute id="15241">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MODEL_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15242">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ALTERNATE_PART_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15243">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MOD_CODES</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15244">
+      <ERD:ERD_CF_Attribute id="15245">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PART_TYPE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15246">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MOD_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15247">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15248">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MOD_CODE (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15249">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MOD_DESC (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15250">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">AESP_NUMBER_SPECIFIC (VARCHAR2, 15)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15251">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MOD_FAULT_STATE (VARCHAR2, 2000 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15252">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MOD_TYPE (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15253">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EMBODY_BY_FINAL_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15254">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MRO_FAULT</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15255">
+      <ERD:ERD_CF_Attribute id="15256">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15257">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15258">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTUAL_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15259">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_UNIT (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15260">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_UNIT_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15261">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PLANNED_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15262">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_OBJ_COMPLETION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15263">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PRIMARY_USAGE_AT_REPORT (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15264">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">COMMENTS (VARCHAR2, 3000 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15265">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_REPAIR_TIME (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15266">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_CATEGORY (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15267">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_REPAIR_LEVEL (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15268">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_DESCRIPTION (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15269">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REASON_FOR_WORK (VARCHAR2, 1500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15270">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_DISPLAY_ID (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15271">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_STATE (VARCHAR2, 2000 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15272">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_FAULT_OCCURRED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15273">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_RECTIFIED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15274">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_RECORDED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15275">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ACTUAL_REPORTED_BY (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15276">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_REPORTED_BY_SERVICE (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15277">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_REPORTED_BY_RANK (VARCHAR2, 1000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15278">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_REPORTED_BY_TRADE (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15279">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_NAME (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15280">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_SERVICE (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15281">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_RANK (VARCHAR2, 1000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15282">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_TRADE (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15283">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PRIMARY_USAGE_AT_CLOSE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15284">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PRIMARY_USAGE_AT_START (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15285">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_GROUP (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15286">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MISSION_IMPACT (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15287">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_REPAIR_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15288">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STD_PROB_REPORT_ID (VARCHAR2, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15289">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STD_PROB_REPORT_DESCRIPTION (VARCHAR2, 250)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15290">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESCALATE_FAULT (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15291">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_MRO_MAINT_MOD_FAULT</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15292">
+      <ERD:ERD_CF_Attribute id="15293">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15294">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15295">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ACTUAL_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15296">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_UNIT (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15297">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_UNIT_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15298">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PLANNED_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15299">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_OBJ_COMPLETION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15300">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_REPAIR_TIME (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15301">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_CATEGORY (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15302">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_REPAIR_LEVEL (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15303">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_DESCRIPTION (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15304">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REASON_FOR_WORK (VARCHAR2, 1500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15305">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_FAULT_OCCURRED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15306">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_NAME (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15307">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_SERVICE (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15308">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_RANK (VARCHAR2, 1000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15309">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_CLOSED_BY_TRADE (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15310">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_SECTION (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15311">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_SECTION_LOCATION (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15312">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_STATE (VARCHAR2, 2000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15313">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_REPAIR_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15314">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESCALATE_FAULT (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15315">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_NON_EVENT_USAGE</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15316">
+      <ERD:ERD_CF_Attribute id="15317">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15318">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LOG_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15319">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EVENT_USAGE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15320">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAMETER_NAME (VARCHAR2, 30 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15321">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">START_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15322">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">END_VALUE (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15323">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_PART_TYPE</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15324">
+      <ERD:ERD_CF_Attribute id="15325">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PART_TYPE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15326">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15327">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_1_DESC (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15328">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_2_DESC (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15329">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_3_DESC (VARCHAR2, 256)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15330">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEVEL_4_DESC (VARCHAR2, 640)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15331">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_TYPE (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15332">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAC (VARCHAR2, 25)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15333">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_UNLADEN_WEIGHT (NUMBER, [10, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15334">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_WIDTH (NUMBER, [6, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15335">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_HEIGHT (NUMBER, [6, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15336">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DESIGN_GROSS_VEHICLE_WEIGHT (NUMBER, [10, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15337">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIP_WEIGHT_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15338">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_FAMILY_GROUP (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15339">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PT_NAME (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15340">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PT_UIN (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15341">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_CATEGORY (NUMBER, [6, 0])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15342">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FUEL_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15343">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PREFERRED_SUPPORT (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15344">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESP_SPECIFIC (VARCHAR2, 15)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15345">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESP_COMMON (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15346">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PRIMARY_USAGE_COUNTER (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15347">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEAR_CODE (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15348">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LEAR_CODE_DESC (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15349">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SPARE_COST (NUMBER, [15, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15350">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EQUIPMENT_LENGTH (NUMBER, [6, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15351">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAM (NUMBER, [10, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15352">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">GTW (NUMBER, [10, 3])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15353">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SUPPORT_DETAILS (VARCHAR2, 250)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15354">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LIFTING_TACKLE (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15355">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OBSOLETE (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15356">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_OBSOLETED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15357">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OBSOLETED_BY_MJDI (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15358">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_OBSOLETED_BY_MJDI (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15359">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">OUT_OF_SERVICE_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15360">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EBS_ITEM (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15361">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PT_ORG_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15362">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DMC (VARCHAR2, 250)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15363">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TEST_CLASS (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15364">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_PART_TYPE_MODEL</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15365">
+      <ERD:ERD_CF_Attribute id="15366">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MODEL_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15367">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EBS_PARENT_PART_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15368">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EBS_CHILD_PART_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15369">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EBS_POSTION_NUMBER (VARCHAR2, 30)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15370">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">MAXIMUM_FITTED_QUANTITY (NUMBER, [5, 0])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15371">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">EBS_PHYSICAL_POSITION (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15372">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">BCIP_BASELINE_DRN (VARCHAR2, 531)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15373">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STATUS_IMPACT (VARCHAR2, 35)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15374">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ROLE_FIT_CONFIG_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15375">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STRUCT_POS_REQUIRED (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15376">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_RA_TIME</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15377">
+      <ERD:ERD_CF_Attribute id="15378">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15379">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_TIME_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15380">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIRER_TIME (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15381">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CERTIFIER (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15382">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SERVICE_NUMBER (VARCHAR2, 11)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15383">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIRER_NAME (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15384">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RANK (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15385">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TRADE (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15386">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_REPAIR_ACTS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15387">
+      <ERD:ERD_CF_Attribute id="15388">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15389">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15390">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_TYPE (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15391">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15392">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_COMPLETION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15393">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">CANDIDATE_SRA_FLAG (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15394">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIRED_DURING_INSPECTION (VARCHAR2, 3)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15395">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_DESCRIPTION (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15396">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">INSPECTION_RESULT (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15397">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SYSTEM (VARCHAR2, 110)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15398">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SUB_SYSTEM (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15399">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_CONDITION (VARCHAR2, 2000 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15400">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_STATUS (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15401">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_REPAIR_LEVEL (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15402">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_SECTION (VARCHAR2, 75)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15403">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_SECTION_LOCATION (VARCHAR2, 100)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15404">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PLANNED_START_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15405">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PLANNED_END_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15406">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_COMMENTS (VARCHAR2, 4000)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15407">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ESTIMATED_REPAIR_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15408">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DELIVERY_CODE (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15409">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STANDARD_REPAIR_ACTION_ID (VARCHAR2, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15410">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STANDARD_RAC_DESCRIPTION (VARCHAR2, 200)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15411">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_REP_ACT_SPARES_USED</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15412">
+      <ERD:ERD_CF_Attribute id="15413">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15414">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SPARE_USE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15415">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">QUANTITY_OF_ITEMS_USED (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15416">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">QUANTITY_OF_ITEMS_NOT_USED (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15417">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUIRED_NUMBER (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15418">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15419">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SPARE_DESCRIPTION (VARCHAR2, 64)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15420">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">IS_SPARE_CONSUMED (VARCHAR2, 5)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15421">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_REQUISITIONS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15422">
+      <ERD:ERD_CF_Attribute id="15423">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUISITION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15424">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">LINE_ITEM_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15425">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SPARE_REQUIREMENT_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15426">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15427">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUESTED_NSN (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15428">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUESTED_NSN_DESCRIPTION (VARCHAR2, 64)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15429">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUISITION_STATUS (VARCHAR2, 255)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15430">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUIRED_BY_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15431">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STORES_REQUISITION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15432">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">DATE_ITEMS_RECEIVED (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15433">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SPECIAL_OPERATIONS_CODE (VARCHAR2, 4)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15434">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REASON_FOR_REQUISITION (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15435">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">QUANTITY_REQUIRED (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15436">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">QUANTITY_RECEIVED (NUMBER, [5, 0])</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15437">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">TOTAL_PARTS_ISSUED (NUMBER, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15438">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">JAMES_REQUISITION_ID (VARCHAR2, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15439">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STOCK_ACCNT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15440">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_ROLE_FIT_ASSET</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15441">
+      <ERD:ERD_CF_Attribute id="15442">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15443">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ROLE_FIT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15444">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_SUPPLY_ISSUE_ID</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15445">
+      <ERD:ERD_CF_Attribute id="15446">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_DS_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15447">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUISITION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15448">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">SUPPLY_CHAIN_ISSUE_ID (VARCHAR2, 40)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15449">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">STORES_REQUISITION_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15450">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ISSUE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15451">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_TYPE_USAGE_COUNTERS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15452">
+      <ERD:ERD_CF_Attribute id="15453">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PART_TYPE_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15454">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_PARAMETER_NAME (VARCHAR2, 30 CHAR)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15455">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">PARAMETER_DESC (VARCHAR2, 50)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15456">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">USAGE_CATEGORY (VARCHAR2, 500)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15457">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_WORK_ESCALATION</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15458">
+      <ERD:ERD_CF_Attribute id="15459">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ACTION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15460">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HIGHER_ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15461">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_ASSET_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15462">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_CATEGORY (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15463">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">NEXT_LEVEL_CONDITION (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15464">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_CONDITION (VARCHAR2, 20)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15465">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">RA_STATE (VARCHAR2, 6)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15466">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_ASSET_POSITION (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15467">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">HIGHER_ASSET_POSITION (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+  <ERD:ERD_CF_Entity id="15468">
+    <MM_ProfileValues>
+      <MM_Value name="nm" type="string" xml:lang="en">TC_WORK_REQUESTS</MM_Value>
+    </MM_ProfileValues>
+    <ERD:ERD_CF_Attributes name="attributes" id="15469">
+      <ERD:ERD_CF_Attribute id="15470">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">FAULT_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15471">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">JOB_CARD_STATUS (VARCHAR2, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15472">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REQUIRED_BY_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15473">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_REQUEST_CLOSED_DATE (DATE, None)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15474">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">WORK_REQUEST_ID (VARCHAR2, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15475">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ORGANISATION (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15476">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">REPAIR_ORGANISATION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15477">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ALT_REPAIR_ORGANISATION (VARCHAR2, 60)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+      <ERD:ERD_CF_Attribute id="15478">
+        <MM_ProfileValues>
+          <MM_Value name="nm" type="string" xml:lang="en">ALT_REPAIR_ORGANISATION_ID (CHAR, 32)</MM_Value>
+        </MM_ProfileValues>
+      </ERD:ERD_CF_Attribute>
+    </ERD:ERD_CF_Attributes>
+  </ERD:ERD_CF_Entity>
+</ERD:ERD_CF_Entitys>
