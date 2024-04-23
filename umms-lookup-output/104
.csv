@@ -1,0 +1,7 @@
+lookupid,description
+LUTPDELETED,Deleted
+LUTPDONOTSENDDA,Do not send defect attachment to (S)SDD
+LUTPPROCESS,Processing
+LUTPQUEUED,Queued
+LUTPSENTFAIL,Sent (Fail)
+LUTPSENTOK,Sent (OK)

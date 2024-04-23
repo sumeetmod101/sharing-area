@@ -1,0 +1,11 @@
+lookupid,description
+LUTPARCHIVED,Archived
+LUTPAWAITINGDEL,Awaiting Deletion Approval
+LUTPAWAITINGMRGE,Awaiting Merge Approval
+LUTPCO_LOGGEDIN,Checked Out - 
+LUTPCO_OTHERUSER,Checked Out
+LUTPLIVE,Live
+LUTPMERGED,Merged
+LUTPMRGETARGET,Merge Target
+LUTPWAITMAJRAPPR,Awaiting Major Approval
+LUTPWAITMINRAPPR,Awaiting Minor Approval

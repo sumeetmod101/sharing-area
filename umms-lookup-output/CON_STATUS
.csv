@@ -1,0 +1,16 @@
+lookupid,description
+APPROVED,DA Approved
+CANCELLED,Cancelled
+CLOSED,Closed
+CURRENT,Current
+DELETED,Deleted
+INT APPROVED,DA Safe for Sea
+NOT SUBMITTED,Not Submitted
+NULL,NULL
+OUTSTANDING,Outstanding
+REJECTED,DA Rejected
+UMMS APPROVED,Authorised
+UMMS FAILED,Submission Failed
+UMMS RAISED,Raised
+UMMS SUBMITTED,Submitted
+WORKED OUT,Worked Out

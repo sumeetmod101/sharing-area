@@ -1,0 +1,15 @@
+lookupid,description
+APM,1. Air Purification & Monitor
+C,2. Containment
+ER,3. Escape & Rescue
+FFFP,4. Fire Fighting & Protection
+GLA,5. General Lifting Appliances
+MC,6. Magazine Construction
+MCONT,7. Manoeuvring & Control
+MS,12. Main Steam
+NA,13. Not Applicable
+NUC,14. Nuclear
+S,9. Stability
+SM,8. Shipboard Munitions
+SSS,10. Submarine Structural Strength
+WI,11. Watertight Integrity
