@@ -1,0 +1,11 @@
+RiskSeverity,count(1)
+CATASTROPHIC,8
+CRITICAL,11
+Catastrophic,217
+Critical,227
+MAJOR,45
+MARGINAL,51
+Major,1255
+Marginal,2517
+NEGLIGIBLE,30
+Negligible,939

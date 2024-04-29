@@ -1,0 +1,13 @@
+RiskFrequency,count(1)
+FREQUENT,26
+Frequent,1260
+IMPROBABLE,25
+INCREDIBLE,6
+Improbable,440
+Incredible,87
+OCCASIONAL,26
+Occasional,1323
+PROBABLE,37
+Probable,992
+REMOTE,25
+Remote,1053
