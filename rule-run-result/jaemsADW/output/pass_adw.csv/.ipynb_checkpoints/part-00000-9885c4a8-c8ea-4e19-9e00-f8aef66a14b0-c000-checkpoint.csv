@@ -1,0 +1,599 @@
+rule_id$$table$$columns$$check$$check_details$$required$$valid$$hasSample$$tags$$errorMessage$$failedRowsSample
+0$$tc_act_sec_usage$$ASSET_ID$$complete$$$$2087414$$2087414$$false$$$$$$
+2$$tc_act_sec_usage$$ASSET_ID$$length$$"{\"max\": 32}"$$2087414$$2087414$$false$$$$$$
+3$$tc_act_sec_usage$$EVENT_ID$$complete$$$$2087414$$2087414$$false$$$$$$
+5$$tc_act_sec_usage$$EVENT_ID$$length$$"{\"max\": 32}"$$2087414$$2087414$$false$$$$$$
+10$$tc_act_sec_usage$$USAGE_PARAMETER_NAME$$length$$"{\"max\": 30}"$$2087414$$2087414$$false$$$$$$
+8$$tc_act_sec_usage$$USAGE_PARAMETER_NAME$$complete$$$$2087414$$2087414$$false$$$$$$
+46$$tc_activity$$ACTIVITY_ID$$length$$"{\"max\": 20}"$$76010$$76010$$false$$$$$$
+32$$tc_activity$$ACTIVITY_PLANNED_END$$complete$$$$76010$$76010$$false$$$$$$
+31$$tc_activity$$ACTIVITY_PLANNED_START$$complete$$$$76010$$76010$$false$$$$$$
+33$$tc_activity$$ACTIVITY_SPECIAL_INSTRUCTIONS$$length$$"{\"max\": 4000}"$$76010$$76010$$false$$$$$$
+44$$tc_activity$$ACTIVITY_TYPE$$length$$"{\"max\": 255}"$$76010$$76010$$false$$$$$$
+45$$tc_activity$$ACTIVITY_TYPE_DESCRIPTION$$length$$"{\"max\": 500}"$$76010$$76010$$false$$$$$$
+13$$tc_activity$$ASSET_ID$$complete$$$$76010$$76010$$false$$$$$$
+16$$tc_activity$$ASSET_ID$$in$$"{\"column\": \"TC_INSTANCES.ASSET_ID\"}"$$76010$$76010$$false$$$$$$
+15$$tc_activity$$ASSET_ID,EVENT_ID$$unique$$$$76010$$76010$$false$$$$$$
+20$$tc_activity$$ATUD_CONTROL_NUMBER$$complete$$$$76010$$76010$$false$$$$$$
+21$$tc_activity$$ATUD_CONTROL_NUMBER$$length$$"{\"max\": 40}"$$76010$$76010$$false$$$$$$
+18$$tc_activity$$ATUD_START_DATE$$complete$$$$76010$$76010$$false$$$$$$
+43$$tc_activity$$AUTH_INITIALS$$length$$"{\"max\": 100}"$$76010$$76010$$false$$$$$$
+40$$tc_activity$$AUTH_SERVICE_NUMBER$$complete$$$$76010$$76010$$false$$$$$$
+41$$tc_activity$$AUTH_SERVICE_NUMBER$$length$$"{\"max\": 11}"$$76010$$76010$$false$$$$$$
+42$$tc_activity$$AUTH_SURNAME$$length$$"{\"max\": 100}"$$76010$$76010$$false$$$$$$
+36$$tc_activity$$DESCRIPTION$$length$$"{\"max\": 2000}"$$76010$$76010$$false$$$$$$
+34$$tc_activity$$DESTINATION$$length$$"{\"max\": 40}"$$76010$$76010$$false$$$$$$
+37$$tc_activity$$DRIVER_NAME$$length$$"{\"max\": 100}"$$76010$$76010$$false$$$$$$
+39$$tc_activity$$DRIVER_RANK$$length$$"{\"max\": 20}"$$76010$$76010$$false$$$$$$
+38$$tc_activity$$DRIVER_SERVICE_NUMBER$$length$$"{\"max\": 11}"$$76010$$76010$$false$$$$$$
+14$$tc_activity$$EVENT_ID$$complete$$$$76010$$76010$$false$$$$$$
+17$$tc_activity$$EVENT_ID$$in$$"{\"column\": \"TC_ACTIVITY.EVENT_ID\"}"$$76010$$76010$$false$$$$$$
+28$$tc_activity$$EVENT_NAME$$complete$$$$76010$$76010$$false$$$$$$
+29$$tc_activity$$EVENT_NAME$$length$$"{\"max\": 40}"$$76010$$76010$$false$$$$$$
+26$$tc_activity$$EVENT_OWNER_NAME$$complete$$$$76010$$76010$$false$$$$$$
+27$$tc_activity$$EVENT_OWNER_NAME$$length$$"{\"max\": 60}"$$76010$$76010$$false$$$$$$
+30$$tc_activity$$EVENT_OWNER_UIN$$length$$"{\"min\": 6, \"max\": 6}"$$76010$$76010$$false$$$$$$
+35$$tc_activity$$FUEL_DRAWN_SUM$$length$$"{\"max\": 15}"$$76010$$76010$$false$$$$$$
+22$$tc_activity$$USAGE_COUNTER_TYPE$$complete$$$$76010$$76010$$false$$$$$$
+23$$tc_activity$$USAGE_COUNTER_TYPE$$length$$"{\"max\": 30}"$$76010$$76010$$false$$$$$$
+24$$tc_activity$$USAGE_COUNTER_UNIT$$complete$$$$76010$$76010$$false$$$$$$
+25$$tc_activity$$USAGE_COUNTER_UNIT$$length$$"{\"max\": 50}"$$76010$$76010$$false$$$$$$
+304$$tc_asset_fleet_idents$$ASSET_DS_ID$$complete$$$$36269$$36269$$false$$$$$$
+305$$tc_asset_fleet_idents$$ASSET_DS_ID$$length$$"{\"max\": 32}"$$36269$$36269$$false$$$$$$
+302$$tc_asset_fleet_idents$$ASSET_DS_ID,FLEET_IDENT_ID$$unique$$$$36269$$36269$$false$$$$$$
+306$$tc_asset_fleet_idents$$FLEET_IDENT_ID$$complete$$$$36269$$36269$$false$$$$$$
+307$$tc_asset_fleet_idents$$FLEET_IDENT_ID$$length$$"{\"max\": 500}"$$36269$$36269$$false$$$$$$
+309$$tc_asset_fleet_idents$$READINESS_CODE$$length$$"{\"max\": 500}"$$36269$$36269$$false$$$$$$
+488$$tc_asset_status_reason$$ASSET_ID$$complete$$$$11435260$$11435260$$false$$$$$$
+490$$tc_asset_status_reason$$ASSET_ID$$length$$"{\"max\": 32}"$$11435260$$11435260$$false$$$$$$
+497$$tc_asset_status_reason$$REASON_FOR_STATUS$$length$$"{\"max\": 4000}"$$11435260$$11435260$$false$$$$$$
+495$$tc_asset_status_reason$$START_DATE$$complete$$$$11435260$$11435260$$false$$$$$$
+492$$tc_asset_status_reason$$STATUS$$complete$$$$11435260$$11435260$$false$$$$$$
+493$$tc_asset_status_reason$$STATUS$$length$$"{\"max\": 100}"$$11435260$$11435260$$false$$$$$$
+367$$tc_calculated_oper_param$$CALCULATION_FORMULA$$length$$"{\"max\": 4000}"$$647$$647$$false$$$$$$
+357$$tc_calculated_oper_param$$LEVEL_1_DESC$$complete$$$$647$$647$$false$$$$$$
+358$$tc_calculated_oper_param$$LEVEL_1_DESC$$length$$"{\"max\": 35}"$$647$$647$$false$$$$$$
+359$$tc_calculated_oper_param$$LEVEL_2_DESC$$complete$$$$647$$647$$false$$$$$$
+360$$tc_calculated_oper_param$$LEVEL_2_DESC$$length$$"{\"max\": 35}"$$647$$647$$false$$$$$$
+361$$tc_calculated_oper_param$$LEVEL_3_DESC$$complete$$$$647$$647$$false$$$$$$
+362$$tc_calculated_oper_param$$LEVEL_3_DESC$$length$$"{\"max\": 64}"$$647$$647$$false$$$$$$
+354$$tc_calculated_oper_param$$NSN$$in$$"{\"column\": \"TC_PART_TYPE.NSN\"}"$$647$$647$$false$$$$$$
+355$$tc_calculated_oper_param$$NSN$$complete$$$$647$$647$$false$$$$$$
+356$$tc_calculated_oper_param$$NSN$$length$$"{\"max\": 50}"$$647$$647$$false$$$$$$
+352$$tc_calculated_oper_param$$OPER_PARAM_DS_ID$$complete$$$$647$$647$$false$$$$$$
+353$$tc_calculated_oper_param$$OPER_PARAM_DS_ID$$length$$"{\"max\": 32}"$$647$$647$$false$$$$$$
+351$$tc_calculated_oper_param$$OPER_PARAM_DS_ID,NSN$$unique$$$$647$$647$$false$$$$$$
+363$$tc_calculated_oper_param$$USAGE_PARAMETER_NAME$$complete$$$$647$$647$$false$$$$$$
+364$$tc_calculated_oper_param$$USAGE_PARAMETER_NAME$$length$$"{\"max\": 30}"$$647$$647$$false$$$$$$
+365$$tc_calculated_oper_param$$USAGE_PARAM_CODE$$complete$$$$647$$647$$false$$$$$$
+366$$tc_calculated_oper_param$$USAGE_PARAM_CODE$$length$$"{\"max\": 30}"$$647$$647$$false$$$$$$
+505$$tc_emp_adr_quals$$ADR_QUALIFICATIONS$$complete$$$$83830$$83830$$false$$$$$$
+506$$tc_emp_adr_quals$$ADR_QUALIFICATIONS$$length$$"{\"max\": 255}"$$83830$$83830$$false$$$$$$
+498$$tc_emp_adr_quals$$ADR_QUAL_ID$$unique$$$$83830$$83830$$false$$$$$$
+499$$tc_emp_adr_quals$$ADR_QUAL_ID$$complete$$$$83830$$83830$$false$$$$$$
+500$$tc_emp_adr_quals$$ADR_QUAL_ID$$length$$"{\"max\": 32}"$$83830$$83830$$false$$$$$$
+502$$tc_emp_adr_quals$$EMPLOYEE_ID$$in$$"{\"column\": \"TC_EMP_DETAILS.EMPLOYEE_ID\"}"$$83830$$83830$$false$$$$$$
+503$$tc_emp_adr_quals$$EMPLOYEE_ID$$complete$$$$83830$$83830$$false$$$$$$
+504$$tc_emp_adr_quals$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$83830$$83830$$false$$$$$$
+507$$tc_emp_adr_quals$$MODULE_EXPIRY_DATE$$complete$$$$83830$$83830$$false$$$$$$
+509$$tc_emp_competencies$$COMPETENCY_ID$$complete$$$$1220278$$1220278$$false$$$$$$
+510$$tc_emp_competencies$$COMPETENCY_ID$$length$$"{\"max\": 32}"$$1220278$$1220278$$false$$$$$$
+515$$tc_emp_competencies$$COMPETENCY_NAME$$complete$$$$1220278$$1220278$$false$$$$$$
+516$$tc_emp_competencies$$COMPETENCY_NAME$$length$$"{\"max\": 20}"$$1220278$$1220278$$false$$$$$$
+517$$tc_emp_competencies$$COMPETENCY_TYPE$$complete$$$$1220278$$1220278$$false$$$$$$
+518$$tc_emp_competencies$$COMPETENCY_TYPE$$length$$"{\"max\": 500}"$$1220278$$1220278$$false$$$$$$
+513$$tc_emp_competencies$$EMPLOYEE_ID$$complete$$$$1220278$$1220278$$false$$$$$$
+514$$tc_emp_competencies$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$1220278$$1220278$$false$$$$$$
+519$$tc_emp_details$$EMPLOYEE_ID$$unique$$$$343698$$343698$$false$$$$$$
+520$$tc_emp_details$$EMPLOYEE_ID$$complete$$$$343698$$343698$$false$$$$$$
+521$$tc_emp_details$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$343698$$343698$$false$$$$$$
+537$$tc_emp_details$$HAS_LOGIN$$length$$"{\"max\": 3}"$$343698$$343698$$false$$$$$$
+536$$tc_emp_details$$HOLDING_ORG_ID$$length$$"{\"max\": 32}"$$343698$$343698$$false$$$$$$
+524$$tc_emp_details$$INITIALS$$length$$"{\"max\": 75}"$$343698$$343698$$false$$$$$$
+532$$tc_emp_details$$OWNING_ORG_ID$$complete$$$$343698$$343698$$false$$$$$$
+533$$tc_emp_details$$OWNING_ORG_ID$$length$$"{\"max\": 32}"$$343698$$343698$$false$$$$$$
+525$$tc_emp_details$$RANK$$length$$"{\"max\": 20}"$$343698$$343698$$false$$$$$$
+526$$tc_emp_details$$RANK_DESCRIPTION$$length$$"{\"max\": 1000}"$$343698$$343698$$false$$$$$$
+529$$tc_emp_details$$REGIMENT$$length$$"{\"max\": 20}"$$343698$$343698$$false$$$$$$
+530$$tc_emp_details$$SERVICE$$length$$"{\"max\": 255}"$$343698$$343698$$false$$$$$$
+522$$tc_emp_details$$SERVICE_NUMBER$$length$$"{\"max\": 11}"$$343698$$343698$$false$$$$$$
+523$$tc_emp_details$$SURNAME$$length$$"{\"max\": 75}"$$343698$$343698$$false$$$$$$
+527$$tc_emp_details$$TRADE$$length$$"{\"max\": 20}"$$343698$$343698$$false$$$$$$
+528$$tc_emp_details$$TRADE_DESCRIPTION$$length$$"{\"max\": 200}"$$343698$$343698$$false$$$$$$
+542$$tc_emp_driving_licence$$DVLA_LICENCE_NUMBER$$length$$"{\"max\": 30}"$$343713$$343713$$false$$$$$$
+538$$tc_emp_driving_licence$$EMPLOYEE_ID$$unique$$$$343713$$343713$$false$$$$$$
+540$$tc_emp_driving_licence$$EMPLOYEE_ID$$complete$$$$343713$$343713$$false$$$$$$
+541$$tc_emp_driving_licence$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$343713$$343713$$false$$$$$$
+543$$tc_emp_driving_licence$$FMT_600_NUMBER$$length$$"{\"max\": 25}"$$343713$$343713$$false$$$$$$
+544$$tc_emp_driving_licence$$FMT_600_TYPE_DESCRIPTION$$length$$"{\"max\": 500}"$$343713$$343713$$false$$$$$$
+547$$tc_emp_functional_groups$$EMPLOYEE_ID$$complete$$$$319859$$319859$$false$$$$$$
+548$$tc_emp_functional_groups$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$319859$$319859$$false$$$$$$
+552$$tc_emp_functional_groups$$FUNCTIONAL_GROUP$$complete$$$$319859$$319859$$false$$$$$$
+553$$tc_emp_functional_groups$$FUNCTIONAL_GROUP$$length$$"{\"max\": 255}"$$319859$$319859$$false$$$$$$
+550$$tc_emp_functional_groups$$FUNC_GROUP_ID$$complete$$$$319859$$319859$$false$$$$$$
+551$$tc_emp_functional_groups$$FUNC_GROUP_ID$$length$$"{\"max\": 32}"$$319859$$319859$$false$$$$$$
+572$$tc_emp_hwc_quals$$ASSIGNED_BY_EMPLOYEE_ID$$in$$"{\"column\": \"TC_EMP_DETAILS.EMPLOYEE_ID\"}"$$72282$$72282$$false$$$$$$
+573$$tc_emp_hwc_quals$$ASSIGNED_BY_EMPLOYEE_ID$$complete$$$$72282$$72282$$false$$$$$$
+574$$tc_emp_hwc_quals$$ASSIGNED_BY_EMPLOYEE_ID$$length$$"{\"max\": 32}"$$72282$$72282$$false$$$$$$
+575$$tc_emp_hwc_quals$$ASSIGNED_BY_ORG_DS_ID$$in$$"{\"column\": \"TC_ORG_DATA.ORGANISATION_DS_ID\"}"$$72282$$72282$$false$$$$$$
+576$$tc_emp_hwc_quals$$ASSIGNED_BY_ORG_DS_ID$$complete$$$$72282$$72282$$false$$$$$$
+577$$tc_emp_hwc_quals$$ASSIGNED_BY_ORG_DS_ID$$length$$"{\"max\": 32}"$$72282$$72282$$false$$$$$$
+569$$tc_emp_hwc_quals$$ASSIGNED_DATE$$complete$$$$72282$$72282$$false$$$$$$
+570$$tc_emp_hwc_quals$$AUTHORIZED_BY$$complete$$$$72282$$72282$$false$$$$$$
+571$$tc_emp_hwc_quals$$AUTHORIZED_BY$$length$$"{\"max\": 40}"$$72282$$72282$$false$$$$$$
+559$$tc_emp_hwc_quals$$EMPLOYEE_ID$$complete$$$$72282$$72282$$false$$$$$$
+560$$tc_emp_hwc_quals$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$72282$$72282$$false$$$$$$
+568$$tc_emp_hwc_quals$$EXPIRY_DATE$$complete$$$$72282$$72282$$false$$$$$$
+567$$tc_emp_hwc_quals$$GAINED_DATE$$complete$$$$72282$$72282$$false$$$$$$
+554$$tc_emp_hwc_quals$$HWC_BRIEF_ID$$unique$$$$72282$$72282$$false$$$$$$
+555$$tc_emp_hwc_quals$$HWC_BRIEF_ID$$complete$$$$72282$$72282$$false$$$$$$
+556$$tc_emp_hwc_quals$$HWC_BRIEF_ID$$length$$"{\"max\": 32}"$$72282$$72282$$false$$$$$$
+561$$tc_emp_hwc_quals$$HWC_BRIEF_NAME$$complete$$$$72282$$72282$$false$$$$$$
+562$$tc_emp_hwc_quals$$HWC_BRIEF_NAME$$length$$"{\"max\": 500}"$$72282$$72282$$false$$$$$$
+563$$tc_emp_hwc_quals$$HWC_BRIEF_TYPE$$complete$$$$72282$$72282$$false$$$$$$
+564$$tc_emp_hwc_quals$$HWC_BRIEF_TYPE$$length$$"{\"max\": 500}"$$72282$$72282$$false$$$$$$
+565$$tc_emp_hwc_quals$$LOCATION_CODE$$complete$$$$72282$$72282$$false$$$$$$
+566$$tc_emp_hwc_quals$$LOCATION_CODE$$length$$"{\"max\": 51}"$$72282$$72282$$false$$$$$$
+579$$tc_emp_hwc_quals$$UPDATED_BY_EMPLOYEE_ID$$length$$"{\"max\": 32}"$$72282$$72282$$false$$$$$$
+594$$tc_emp_trade_quals$$CAPABILITY_GRP$$complete$$$$71122$$71122$$false$$$$$$
+595$$tc_emp_trade_quals$$CAPABILITY_GRP$$length$$"{\"max\": 500}"$$71122$$71122$$false$$$$$$
+598$$tc_emp_trade_quals$$CERTIFIER$$complete$$$$71122$$71122$$false$$$$$$
+599$$tc_emp_trade_quals$$CERTIFIER$$length$$"{\"max\": 3}"$$71122$$71122$$false$$$$$$
+581$$tc_emp_trade_quals$$EMPLOYEE_ID$$in$$"{\"column\": \"TC_EMP_DETAILS.EMPLOYEE_ID\"}"$$71122$$71122$$false$$$$$$
+582$$tc_emp_trade_quals$$EMPLOYEE_ID$$complete$$$$71122$$71122$$false$$$$$$
+583$$tc_emp_trade_quals$$EMPLOYEE_ID$$length$$"{\"max\": 32}"$$71122$$71122$$false$$$$$$
+596$$tc_emp_trade_quals$$GAINED_DATE$$complete$$$$71122$$71122$$false$$$$$$
+588$$tc_emp_trade_quals$$ISSUE_ORG_ID$$complete$$$$71122$$71122$$false$$$$$$
+589$$tc_emp_trade_quals$$ISSUE_ORG_ID$$length$$"{\"max\": 32}"$$71122$$71122$$false$$$$$$
+590$$tc_emp_trade_quals$$LEVEL_1_DESC$$complete$$$$71122$$71122$$false$$$$$$
+591$$tc_emp_trade_quals$$LEVEL_1_DESC$$length$$"{\"max\": 35}"$$71122$$71122$$false$$$$$$
+585$$tc_emp_trade_quals$$QUALIFICATION_ID$$complete$$$$71122$$71122$$false$$$$$$
+586$$tc_emp_trade_quals$$QUALIFICATION_ID$$length$$"{\"max\": 32}"$$71122$$71122$$false$$$$$$
+597$$tc_emp_trade_quals$$REVIEW_DATE$$complete$$$$71122$$71122$$false$$$$$$
+600$$tc_emp_trade_quals$$SUSPENDED$$complete$$$$71122$$71122$$false$$$$$$
+601$$tc_emp_trade_quals$$SUSPENDED$$length$$"{\"max\": 3}"$$71122$$71122$$false$$$$$$
+592$$tc_emp_trade_quals$$TRADE_QUALIFICATION$$complete$$$$71122$$71122$$false$$$$$$
+593$$tc_emp_trade_quals$$TRADE_QUALIFICATION$$length$$"{\"max\": 500}"$$71122$$71122$$false$$$$$$
+603$$tc_event_usage$$ASSET_ID$$complete$$$$5162541$$5162541$$false$$$$$$
+605$$tc_event_usage$$ASSET_ID$$length$$"{\"max\": 32}"$$5162541$$5162541$$false$$$$$$
+607$$tc_event_usage$$EVENT_ID$$length$$"{\"max\": 32}"$$5162541$$5162541$$false$$$$$$
+609$$tc_event_usage$$LOG_DATE$$complete$$$$5162541$$5162541$$false$$$$$$
+612$$tc_event_usage$$USAGE_PARAMETER_NAME$$complete$$$$5162541$$5162541$$false$$$$$$
+614$$tc_event_usage$$USAGE_PARAMETER_NAME$$length$$"{\"max\": 30}"$$5162541$$5162541$$false$$$$$$
+72$$tc_instances$$AC_STATE$$length$$"{\"max\": 500}"$$2048286$$2048286$$false$$$$$$
+50$$tc_instances$$ASSET_ID$$unique$$$$2048286$$2048286$$false$$$$$$
+51$$tc_instances$$ASSET_ID$$complete$$$$2048286$$2048286$$false$$$$$$
+52$$tc_instances$$ASSET_ID$$length$$"{\"max\": 32}"$$2048286$$2048286$$false$$$$$$
+85$$tc_instances$$ASSET_UID$$length$$"{\"max\": 75}"$$2048286$$2048286$$false$$$$$$
+73$$tc_instances$$COLOUR$$length$$"{\"max\": 500}"$$2048286$$2048286$$false$$$$$$
+83$$tc_instances$$CUSTODIAN_ORG_ID$$length$$"{\"max\": 32}"$$2048286$$2048286$$false$$$$$$
+61$$tc_instances$$CUSTODIAN_UNIT$$length$$"{\"max\": 60}"$$2048286$$2048286$$false$$$$$$
+62$$tc_instances$$EQUIPMENT_FAMILY_GROUP$$length$$"{\"max\": 500}"$$2048286$$2048286$$false$$$$$$
+70$$tc_instances$$EQUIPMENT_STATE$$length$$"{\"max\": 100}"$$2048286$$2048286$$false$$$$$$
+58$$tc_instances$$ERM$$length$$"{\"max\": 30}"$$2048286$$2048286$$false$$$$$$
+64$$tc_instances$$HOLDER_NAME$$complete$$$$2048286$$2048286$$false$$$$$$
+65$$tc_instances$$HOLDER_NAME$$length$$"{\"max\": 60}"$$2048286$$2048286$$false$$$$$$
+82$$tc_instances$$HOLDER_ORG_ID$$length$$"{\"max\": 32}"$$2048286$$2048286$$false$$$$$$
+71$$tc_instances$$IN_USE_PLACEMENT$$length$$"{\"max\": 60}"$$2048286$$2048286$$false$$$$$$
+86$$tc_instances$$MODIFICATION_STRIKE$$length$$"{\"max\": 50}"$$2048286$$2048286$$false$$$$$$
+53$$tc_instances$$NSN$$complete$$$$2048286$$2048286$$false$$$$$$
+54$$tc_instances$$NSN$$length$$"{\"max\": 50}"$$2048286$$2048286$$false$$$$$$
+89$$tc_instances$$OWNING_DEPOT_DS_ID$$length$$"{\"max\": 32}"$$2048286$$2048286$$false$$$$$$
+47$$tc_instances$$PART_TYPE_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$2048286$$2048286$$false$$$$$$
+48$$tc_instances$$PART_TYPE_ID$$complete$$$$2048286$$2048286$$false$$$$$$
+49$$tc_instances$$PART_TYPE_ID$$length$$"{\"max\": 32}"$$2048286$$2048286$$false$$$$$$
+80$$tc_instances$$PLATFORM_BCIP$$length$$"{\"max\": 500}"$$2048286$$2048286$$false$$$$$$
+81$$tc_instances$$READINESS_LEVEL$$length$$"{\"max\": 500}"$$2048286$$2048286$$false$$$$$$
+57$$tc_instances$$SERIAL_NUMBER$$length$$"{\"max\": 35}"$$2048286$$2048286$$false$$$$$$
+74$$tc_instances$$STORAGE_AREA$$length$$"{\"max\": 50}"$$2048286$$2048286$$false$$$$$$
+79$$tc_instances$$USAGE_COUNTER_UNIT$$length$$"{\"max\": 50}"$$2048286$$2048286$$false$$$$$$
+629$$tc_inventory_locations$$DISABLED$$length$$"{\"max\": 1}"$$6181$$6181$$false$$$$$$
+626$$tc_inventory_locations$$JAMES_STOCK_ACCOUNT_NAME$$length$$"{\"max\": 100}"$$6181$$6181$$false$$$$$$
+620$$tc_inventory_locations$$LOCATION_ID$$unique$$$$6181$$6181$$false$$$$$$
+621$$tc_inventory_locations$$LOCATION_ID$$complete$$$$6181$$6181$$false$$$$$$
+622$$tc_inventory_locations$$LOCATION_ID$$length$$"{\"max\": 32}"$$6181$$6181$$false$$$$$$
+623$$tc_inventory_locations$$OWNING_ORG_ID$$in$$"{\"column\": \"TC_ORG_DATA.ORGANISATION_DS_ID\"}"$$6181$$6181$$false$$$$$$
+624$$tc_inventory_locations$$OWNING_ORG_ID$$complete$$$$6181$$6181$$false$$$$$$
+625$$tc_inventory_locations$$OWNING_ORG_ID$$length$$"{\"max\": 32}"$$6181$$6181$$false$$$$$$
+628$$tc_inventory_locations$$PHYSICAL_LOC_DESCRIPTION$$length$$"{\"max\": 255}"$$6181$$6181$$false$$$$$$
+627$$tc_inventory_locations$$PHYSICAL_LOC_NUMBER$$length$$"{\"max\": 255}"$$6181$$6181$$false$$$$$$
+618$$tc_inventory_locations$$STOCK_ACCNT_ID$$complete$$$$6181$$6181$$false$$$$$$
+619$$tc_inventory_locations$$STOCK_ACCNT_ID$$length$$"{\"max\": 32}"$$6181$$6181$$false$$$$$$
+104$$tc_maint_assoc$$COUNTER$$length$$"{\"max\": 30}"$$196083$$196083$$false$$$$$$
+112$$tc_maint_assoc$$EVENT_TYPE$$length$$"{\"max\": 500}"$$196083$$196083$$false$$$$$$
+105$$tc_maint_assoc$$MAINTENANCE_GROUP$$complete$$$$196083$$196083$$false$$$$$$
+106$$tc_maint_assoc$$MAINTENANCE_GROUP$$length$$"{\"max\": 30}"$$196083$$196083$$false$$$$$$
+111$$tc_maint_assoc$$MAINTENANCE_SENTENCE$$length$$"{\"max\": 2000}"$$196083$$196083$$false$$$$$$
+102$$tc_maint_assoc$$NAME$$complete$$$$196083$$196083$$false$$$$$$
+103$$tc_maint_assoc$$NAME$$length$$"{\"max\": 150}"$$196083$$196083$$false$$$$$$
+100$$tc_maint_assoc$$NSN$$length$$"{\"max\": 50}"$$196083$$196083$$false$$$$$$
+99$$tc_maint_assoc$$NSN$$complete$$$$196083$$196083$$false$$$$$$
+91$$tc_maint_assoc$$PART_TYPE_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$196083$$196083$$false$$$$$$
+92$$tc_maint_assoc$$PART_TYPE_ID$$complete$$$$196083$$196083$$false$$$$$$
+93$$tc_maint_assoc$$PART_TYPE_ID$$length$$"{\"max\": 32}"$$196083$$196083$$false$$$$$$
+107$$tc_maint_assoc$$REPAIR_LEVEL$$complete$$$$196083$$196083$$false$$$$$$
+108$$tc_maint_assoc$$REPAIR_LEVEL$$length$$"{\"max\": 500}"$$196083$$196083$$false$$$$$$
+97$$tc_maint_assoc$$RULE_ID$$complete$$$$196083$$196083$$false$$$$$$
+98$$tc_maint_assoc$$RULE_ID$$length$$"{\"max\": 32}"$$196083$$196083$$false$$$$$$
+94$$tc_maint_assoc$$TEMPLATE_ID$$complete$$$$196083$$196083$$false$$$$$$
+95$$tc_maint_assoc$$TEMPLATE_ID$$length$$"{\"max\": 32}"$$196083$$196083$$false$$$$$$
+109$$tc_maint_assoc$$TRIG_TYPE$$complete$$$$196083$$196083$$false$$$$$$
+110$$tc_maint_assoc$$TRIG_TYPE$$length$$"{\"max\": 500}"$$196083$$196083$$false$$$$$$
+114$$tc_maint_env_hist$$ASSET_ID$$complete$$$$3530030$$3530030$$false$$$$$$
+115$$tc_maint_env_hist$$ASSET_ID$$length$$"{\"max\": 32}"$$3530030$$3530030$$false$$$$$$
+121$$tc_maint_env_hist$$DATE_IN$$complete$$$$3530030$$3530030$$false$$$$$$
+116$$tc_maint_env_hist$$ENV_HIST_ID$$unique$$$$3530030$$3530030$$false$$$$$$
+117$$tc_maint_env_hist$$ENV_HIST_ID$$complete$$$$3530030$$3530030$$false$$$$$$
+118$$tc_maint_env_hist$$ENV_HIST_ID$$length$$"{\"max\": 32}"$$3530030$$3530030$$false$$$$$$
+119$$tc_maint_env_hist$$MAINT_ENVIRONMENT_NAME$$complete$$$$3530030$$3530030$$false$$$$$$
+120$$tc_maint_env_hist$$MAINT_ENVIRONMENT_NAME$$length$$"{\"max\": 30}"$$3530030$$3530030$$false$$$$$$
+468$$tc_maint_forecast$$ASSET_ID$$complete$$$$3675069$$3675069$$false$$$$$$
+469$$tc_maint_forecast$$ASSET_ID$$length$$"{\"max\": 32}"$$3675069$$3675069$$false$$$$$$
+465$$tc_maint_forecast$$FORECAST_ID$$complete$$$$3675069$$3675069$$false$$$$$$
+466$$tc_maint_forecast$$FORECAST_ID$$length$$"{\"max\": 32}"$$3675069$$3675069$$false$$$$$$
+464$$tc_maint_forecast$$FORECAST_ID,ASSET_ID$$unique$$$$3675069$$3675069$$false$$$$$$
+471$$tc_maint_forecast$$MAINTENANCE_STATUS$$length$$"{\"max\": 35}"$$3675069$$3675069$$false$$$$$$
+470$$tc_maint_forecast$$TEMPLATE_ID$$length$$"{\"max\": 32}"$$3675069$$3675069$$false$$$$$$
+472$$tc_maint_forecast$$TRIGGER_TYPE$$length$$"{\"max\": 15}"$$3675069$$3675069$$false$$$$$$
+136$$tc_maint_history$$ACTUAL_COMPLETION_DATE$$complete$$$$19745966$$19745966$$false$$$$$$
+128$$tc_maint_history$$ASSET_ID$$complete$$$$19745966$$19745966$$false$$$$$$
+129$$tc_maint_history$$ASSET_ID$$length$$"{\"max\": 32}"$$19745966$$19745966$$false$$$$$$
+133$$tc_maint_history$$FAULT_ID$$length$$"{\"max\": 32}"$$19745966$$19745966$$false$$$$$$
+137$$tc_maint_history$$MAINTENANCE_STATUS$$complete$$$$19745966$$19745966$$false$$$$$$
+138$$tc_maint_history$$MAINTENANCE_STATUS$$length$$"{\"max\": 500}"$$19745966$$19745966$$false$$$$$$
+134$$tc_maint_history$$MAINT_ENVIRONMENT_NAME$$complete$$$$19745966$$19745966$$false$$$$$$
+135$$tc_maint_history$$MAINT_ENVIRONMENT_NAME$$length$$"{\"max\": 30}"$$19745966$$19745966$$false$$$$$$
+123$$tc_maint_history$$MAINT_HIST_ID$$complete$$$$19745966$$19745966$$false$$$$$$
+124$$tc_maint_history$$MAINT_HIST_ID$$length$$"{\"max\": 32}"$$19745966$$19745966$$false$$$$$$
+130$$tc_maint_history$$MAINT_TEMPLATE_ID$$complete$$$$19745966$$19745966$$false$$$$$$
+131$$tc_maint_history$$MAINT_TEMPLATE_ID$$length$$"{\"max\": 32}"$$19745966$$19745966$$false$$$$$$
+126$$tc_maint_history$$MAINT_USAGE_ID$$length$$"{\"max\": 32}"$$19745966$$19745966$$false$$$$$$
+139$$tc_maint_history$$OPER_PARAM_DISPLAY_ID$$length$$"{\"max\": 30}"$$19745966$$19745966$$false$$$$$$
+213$$tc_maint_mod_link$$FAULT_ID$$complete$$$$19216027$$19216027$$false$$$$$$
+214$$tc_maint_mod_link$$FAULT_ID$$length$$"{\"max\": 32}"$$19216027$$19216027$$false$$$$$$
+211$$tc_maint_mod_link$$MAINT_MOD_ID$$complete$$$$19216027$$19216027$$false$$$$$$
+212$$tc_maint_mod_link$$MAINT_MOD_ID$$length$$"{\"max\": 32}"$$19216027$$19216027$$false$$$$$$
+210$$tc_maint_mod_link$$MAINT_MOD_ID,FAULT_ID$$unique$$$$19216027$$19216027$$false$$$$$$
+215$$tc_maint_mod_link$$WORK_TYPE$$complete$$$$19216027$$19216027$$false$$$$$$
+216$$tc_maint_mod_link$$WORK_TYPE$$length$$"{\"max\": 12}"$$19216027$$19216027$$false$$$$$$
+152$$tc_mod_codes$$AESP_NUMBER_SPECIFIC$$complete$$$$15374$$15374$$false$$$$$$
+153$$tc_mod_codes$$AESP_NUMBER_SPECIFIC$$length$$"{\"max\": 15}"$$15374$$15374$$false$$$$$$
+148$$tc_mod_codes$$MOD_CODE$$complete$$$$15374$$15374$$false$$$$$$
+149$$tc_mod_codes$$MOD_CODE$$length$$"{\"max\": 40}"$$15374$$15374$$false$$$$$$
+150$$tc_mod_codes$$MOD_DESC$$complete$$$$15374$$15374$$false$$$$$$
+151$$tc_mod_codes$$MOD_DESC$$length$$"{\"max\": 4000}"$$15374$$15374$$false$$$$$$
+154$$tc_mod_codes$$MOD_FAULT_STATE$$complete$$$$15374$$15374$$false$$$$$$
+155$$tc_mod_codes$$MOD_FAULT_STATE$$length$$"{\"max\": 2000}"$$15374$$15374$$false$$$$$$
+143$$tc_mod_codes$$MOD_ID$$complete$$$$15374$$15374$$false$$$$$$
+144$$tc_mod_codes$$MOD_ID$$length$$"{\"max\": 32}"$$15374$$15374$$false$$$$$$
+156$$tc_mod_codes$$MOD_TYPE$$length$$"{\"max\": 255}"$$15374$$15374$$false$$$$$$
+145$$tc_mod_codes$$NSN$$complete$$$$15374$$15374$$false$$$$$$
+146$$tc_mod_codes$$NSN$$length$$"{\"max\": 50}"$$15374$$15374$$false$$$$$$
+141$$tc_mod_codes$$PART_TYPE_ID$$complete$$$$15374$$15374$$false$$$$$$
+142$$tc_mod_codes$$PART_TYPE_ID$$length$$"{\"max\": 32}"$$15374$$15374$$false$$$$$$
+140$$tc_mod_codes$$PART_TYPE_ID,MOD_ID$$unique$$$$15374$$15374$$false$$$$$$
+635$$tc_model_alternatives$$ALTERNATE_PART_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$48949$$48949$$false$$$$$$
+636$$tc_model_alternatives$$ALTERNATE_PART_ID$$complete$$$$48949$$48949$$false$$$$$$
+637$$tc_model_alternatives$$ALTERNATE_PART_ID$$length$$"{\"max\": 32}"$$48949$$48949$$false$$$$$$
+631$$tc_model_alternatives$$MODEL_ID$$in$$"{\"column\": \"TC_PART_TYPE_MODEL.MODEL_ID\"}"$$48949$$48949$$false$$$$$$
+632$$tc_model_alternatives$$MODEL_ID$$complete$$$$48949$$48949$$false$$$$$$
+633$$tc_model_alternatives$$MODEL_ID$$length$$"{\"max\": 32}"$$48949$$48949$$false$$$$$$
+158$$tc_mro_fault$$ASSET_ID$$complete$$$$8068431$$8068431$$false$$$$$$
+159$$tc_mro_fault$$ASSET_ID$$length$$"{\"max\": 32}"$$8068431$$8068431$$false$$$$$$
+165$$tc_mro_fault$$COMMENTS$$length$$"{\"max\": 3000}"$$8068431$$8068431$$false$$$$$$
+174$$tc_mro_fault$$DATE_FAULT_OCCURRED$$complete$$$$8068431$$8068431$$false$$$$$$
+187$$tc_mro_fault$$ESCALATE_FAULT$$length$$"{\"max\": 5}"$$8068431$$8068431$$false$$$$$$
+175$$tc_mro_fault$$FAULT_ACTUAL_REPORTED_BY$$length$$"{\"max\": 75}"$$8068431$$8068431$$false$$$$$$
+179$$tc_mro_fault$$FAULT_CLOSED_BY_NAME$$length$$"{\"max\": 75}"$$8068431$$8068431$$false$$$$$$
+181$$tc_mro_fault$$FAULT_CLOSED_BY_RANK$$length$$"{\"max\": 1000}"$$8068431$$8068431$$false$$$$$$
+180$$tc_mro_fault$$FAULT_CLOSED_BY_SERVICE$$length$$"{\"max\": 11}"$$8068431$$8068431$$false$$$$$$
+182$$tc_mro_fault$$FAULT_CLOSED_BY_TRADE$$length$$"{\"max\": 20}"$$8068431$$8068431$$false$$$$$$
+168$$tc_mro_fault$$FAULT_DESCRIPTION$$complete$$$$8068431$$8068431$$false$$$$$$
+169$$tc_mro_fault$$FAULT_DESCRIPTION$$length$$"{\"max\": 4000}"$$8068431$$8068431$$false$$$$$$
+171$$tc_mro_fault$$FAULT_DISPLAY_ID$$complete$$$$8068431$$8068431$$false$$$$$$
+172$$tc_mro_fault$$FAULT_DISPLAY_ID$$length$$"{\"max\": 30}"$$8068431$$8068431$$false$$$$$$
+183$$tc_mro_fault$$FAULT_GROUP$$length$$"{\"max\": 500}"$$8068431$$8068431$$false$$$$$$
+160$$tc_mro_fault$$FAULT_ID$$unique$$$$8068431$$8068431$$false$$$$$$
+161$$tc_mro_fault$$FAULT_ID$$complete$$$$8068431$$8068431$$false$$$$$$
+162$$tc_mro_fault$$FAULT_ID$$length$$"{\"max\": 32}"$$8068431$$8068431$$false$$$$$$
+167$$tc_mro_fault$$FAULT_REPAIR_LEVEL$$length$$"{\"max\": 500}"$$8068431$$8068431$$false$$$$$$
+177$$tc_mro_fault$$FAULT_REPORTED_BY_RANK$$length$$"{\"max\": 1000}"$$8068431$$8068431$$false$$$$$$
+178$$tc_mro_fault$$FAULT_REPORTED_BY_TRADE$$length$$"{\"max\": 20}"$$8068431$$8068431$$false$$$$$$
+173$$tc_mro_fault$$FAULT_STATE$$length$$"{\"max\": 2000}"$$8068431$$8068431$$false$$$$$$
+184$$tc_mro_fault$$MISSION_IMPACT$$length$$"{\"max\": 255}"$$8068431$$8068431$$false$$$$$$
+170$$tc_mro_fault$$REASON_FOR_WORK$$length$$"{\"max\": 1500}"$$8068431$$8068431$$false$$$$$$
+163$$tc_mro_fault$$REPAIR_UNIT$$length$$"{\"max\": 60}"$$8068431$$8068431$$false$$$$$$
+164$$tc_mro_fault$$REPAIR_UNIT_UIN$$length$$"{\"max\": 6}"$$8068431$$8068431$$false$$$$$$
+186$$tc_mro_fault$$STD_PROB_REPORT_DESCRIPTION$$length$$"{\"max\": 250}"$$8068431$$8068431$$false$$$$$$
+185$$tc_mro_fault$$STD_PROB_REPORT_ID$$length$$"{\"max\": 32}"$$8068431$$8068431$$false$$$$$$
+166$$tc_mro_fault$$WORK_CATEGORY$$length$$"{\"max\": 20}"$$8068431$$8068431$$false$$$$$$
+189$$tc_mro_maint_mod_fault$$ASSET_ID$$complete$$$$16449723$$16449723$$false$$$$$$
+190$$tc_mro_maint_mod_fault$$ASSET_ID$$length$$"{\"max\": 32}"$$16449723$$16449723$$false$$$$$$
+209$$tc_mro_maint_mod_fault$$ESCALATE_FAULT$$length$$"{\"max\": 5}"$$16449723$$16449723$$false$$$$$$
+202$$tc_mro_maint_mod_fault$$FAULT_CLOSED_BY_NAME$$length$$"{\"max\": 75}"$$16449723$$16449723$$false$$$$$$
+204$$tc_mro_maint_mod_fault$$FAULT_CLOSED_BY_RANK$$length$$"{\"max\": 1000}"$$16449723$$16449723$$false$$$$$$
+203$$tc_mro_maint_mod_fault$$FAULT_CLOSED_BY_SERVICE$$length$$"{\"max\": 11}"$$16449723$$16449723$$false$$$$$$
+205$$tc_mro_maint_mod_fault$$FAULT_CLOSED_BY_TRADE$$length$$"{\"max\": 20}"$$16449723$$16449723$$false$$$$$$
+199$$tc_mro_maint_mod_fault$$FAULT_DESCRIPTION$$complete$$$$16449723$$16449723$$false$$$$$$
+200$$tc_mro_maint_mod_fault$$FAULT_DESCRIPTION$$length$$"{\"max\": 4000}"$$16449723$$16449723$$false$$$$$$
+191$$tc_mro_maint_mod_fault$$FAULT_ID$$unique$$$$16449723$$16449723$$false$$$$$$
+192$$tc_mro_maint_mod_fault$$FAULT_ID$$complete$$$$16449723$$16449723$$false$$$$$$
+193$$tc_mro_maint_mod_fault$$FAULT_ID$$length$$"{\"max\": 32}"$$16449723$$16449723$$false$$$$$$
+198$$tc_mro_maint_mod_fault$$FAULT_REPAIR_LEVEL$$length$$"{\"max\": 500}"$$16449723$$16449723$$false$$$$$$
+208$$tc_mro_maint_mod_fault$$FAULT_STATE$$length$$"{\"max\": 2000}"$$16449723$$16449723$$false$$$$$$
+201$$tc_mro_maint_mod_fault$$REASON_FOR_WORK$$length$$"{\"max\": 1500}"$$16449723$$16449723$$false$$$$$$
+206$$tc_mro_maint_mod_fault$$REPAIR_SECTION$$length$$"{\"max\": 75}"$$16449723$$16449723$$false$$$$$$
+207$$tc_mro_maint_mod_fault$$REPAIR_SECTION_LOCATION$$length$$"{\"max\": 100}"$$16449723$$16449723$$false$$$$$$
+194$$tc_mro_maint_mod_fault$$REPAIR_UNIT$$length$$"{\"max\": 60}"$$16449723$$16449723$$false$$$$$$
+195$$tc_mro_maint_mod_fault$$REPAIR_UNIT_UIN$$length$$"{\"max\": 6}"$$16449723$$16449723$$false$$$$$$
+196$$tc_mro_maint_mod_fault$$WORK_CATEGORY$$complete$$$$16449723$$16449723$$false$$$$$$
+197$$tc_mro_maint_mod_fault$$WORK_CATEGORY$$length$$"{\"max\": 20}"$$16449723$$16449723$$false$$$$$$
+412$$tc_non_event_usage$$ASSET_ID$$complete$$$$4833985$$4833985$$false$$$$$$
+414$$tc_non_event_usage$$ASSET_ID$$length$$"{\"max\": 32}"$$4833985$$4833985$$false$$$$$$
+419$$tc_non_event_usage$$USAGE_PARAMETER_NAME$$complete$$$$4833985$$4833985$$false$$$$$$
+421$$tc_non_event_usage$$USAGE_PARAMETER_NAME$$length$$"{\"max\": 30}"$$4833985$$4833985$$false$$$$$$
+394$$tc_org_data$$ACCOUNTING_UIN$$length$$"{\"max\": 6}"$$7825$$7825$$false$$$$$$
+389$$tc_org_data$$ADDRESS$$length$$"{\"max\": 2000}"$$7825$$7825$$false$$$$$$
+408$$tc_org_data$$BABCOCK_DSG$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+410$$tc_org_data$$DELETED$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+409$$tc_org_data$$DISABLED$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+406$$tc_org_data$$ES_OPS$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+405$$tc_org_data$$FLEET_MANAGER_ORGANISATION$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+395$$tc_org_data$$IPT$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+368$$tc_org_data$$ORGANISATION_DS_ID$$unique$$$$7825$$7825$$false$$$$$$
+369$$tc_org_data$$ORGANISATION_DS_ID$$complete$$$$7825$$7825$$false$$$$$$
+370$$tc_org_data$$ORGANISATION_DS_ID$$length$$"{\"max\": 32}"$$7825$$7825$$false$$$$$$
+384$$tc_org_data$$ORGANISATION_ID$$unique$$$$7825$$7825$$false$$$$$$
+385$$tc_org_data$$ORGANISATION_ID$$complete$$$$7825$$7825$$false$$$$$$
+386$$tc_org_data$$ORGANISATION_ID$$length$$"{\"max\": 10}"$$7825$$7825$$false$$$$$$
+382$$tc_org_data$$ORGANISATION_LEVEL_TYPE$$complete$$$$7825$$7825$$false$$$$$$
+383$$tc_org_data$$ORGANISATION_LEVEL_TYPE$$length$$"{\"max\": 200}"$$7825$$7825$$false$$$$$$
+371$$tc_org_data$$ORGANISATION_NAME$$complete$$$$7825$$7825$$false$$$$$$
+372$$tc_org_data$$ORGANISATION_NAME$$length$$"{\"max\": 100}"$$7825$$7825$$false$$$$$$
+373$$tc_org_data$$ORGANISATION_SHORT_NAME$$complete$$$$7825$$7825$$false$$$$$$
+374$$tc_org_data$$ORGANISATION_SHORT_NAME$$length$$"{\"max\": 60}"$$7825$$7825$$false$$$$$$
+396$$tc_org_data$$ORGANISATION_TYPE$$length$$"{\"max\": 500}"$$7825$$7825$$false$$$$$$
+380$$tc_org_data$$ORGANISATION_UIN$$length$$"{\"max\": 6}"$$7825$$7825$$false$$$$$$
+404$$tc_org_data$$OWNING_DEPOT$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+376$$tc_org_data$$PARENT_ORGANISATION_DS_ID$$complete$$$$7825$$7825$$false$$$$$$
+377$$tc_org_data$$PARENT_ORGANISATION_DS_ID$$length$$"{\"max\": 32}"$$7825$$7825$$false$$$$$$
+387$$tc_org_data$$PARENT_ORGANISATION_ID$$complete$$$$7825$$7825$$false$$$$$$
+388$$tc_org_data$$PARENT_ORGANISATION_ID$$length$$"{\"max\": 10}"$$7825$$7825$$false$$$$$$
+391$$tc_org_data$$POST_CODE$$length$$"{\"max\": 35}"$$7825$$7825$$false$$$$$$
+403$$tc_org_data$$PPC_FUNCTION$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+378$$tc_org_data$$PRECEDENCE_CODE$$length$$"{\"max\": 40}"$$7825$$7825$$false$$$$$$
+397$$tc_org_data$$PRIMARY_REPAIR_LEVEL$$length$$"{\"max\": 500}"$$7825$$7825$$false$$$$$$
+398$$tc_org_data$$READINESS_LEVEL$$length$$"{\"max\": 500}"$$7825$$7825$$false$$$$$$
+407$$tc_org_data$$SECONDARY_AUTHORISING_ORGANISATION$$length$$"{\"max\": 3}"$$7825$$7825$$false$$$$$$
+393$$tc_org_data$$SHADOW_ORG$$length$$"{\"max\": 5}"$$7825$$7825$$false$$$$$$
+399$$tc_org_data$$THEATRE_CODE_PEACE$$length$$"{\"max\": 255}"$$7825$$7825$$false$$$$$$
+400$$tc_org_data$$THEATRE_CODE_PEACE_DESCRIPTION$$length$$"{\"max\": 500}"$$7825$$7825$$false$$$$$$
+401$$tc_org_data$$THEATRE_CODE_WAR$$length$$"{\"max\": 255}"$$7825$$7825$$false$$$$$$
+402$$tc_org_data$$THEATRE_CODE_WAR_DESCRIPTION$$length$$"{\"max\": 500}"$$7825$$7825$$false$$$$$$
+266$$tc_part_type$$DMC$$length$$"{\"max\": 250}"$$13108$$13108$$false$$$$$$
+263$$tc_part_type$$EBS_ITEM$$length$$"{\"max\": 5}"$$13108$$13108$$false$$$$$$
+250$$tc_part_type$$EQUIPMENT_CATEGORY$$complete$$$$13108$$13108$$false$$$$$$
+246$$tc_part_type$$EQUIPMENT_FAMILY_GROUP$$complete$$$$13108$$13108$$false$$$$$$
+247$$tc_part_type$$EQUIPMENT_FAMILY_GROUP$$length$$"{\"max\": 500}"$$13108$$13108$$false$$$$$$
+243$$tc_part_type$$EQUIPMENT_TYPE$$length$$"{\"max\": 255}"$$13108$$13108$$false$$$$$$
+245$$tc_part_type$$EQUIP_WEIGHT_TYPE$$length$$"{\"max\": 500}"$$13108$$13108$$false$$$$$$
+254$$tc_part_type$$ESP_COMMON$$length$$"{\"max\": 20}"$$13108$$13108$$false$$$$$$
+253$$tc_part_type$$ESP_SPECIFIC$$length$$"{\"max\": 15}"$$13108$$13108$$false$$$$$$
+251$$tc_part_type$$FUEL_TYPE$$length$$"{\"max\": 500}"$$13108$$13108$$false$$$$$$
+257$$tc_part_type$$LEAR_CODE$$length$$"{\"max\": 255}"$$13108$$13108$$false$$$$$$
+258$$tc_part_type$$LEAR_CODE_DESC$$length$$"{\"max\": 500}"$$13108$$13108$$false$$$$$$
+236$$tc_part_type$$LEVEL_1_DESC$$complete$$$$13108$$13108$$false$$$$$$
+237$$tc_part_type$$LEVEL_1_DESC$$length$$"{\"max\": 35}"$$13108$$13108$$false$$$$$$
+238$$tc_part_type$$LEVEL_2_DESC$$complete$$$$13108$$13108$$false$$$$$$
+239$$tc_part_type$$LEVEL_2_DESC$$length$$"{\"max\": 35}"$$13108$$13108$$false$$$$$$
+240$$tc_part_type$$LEVEL_3_DESC$$complete$$$$13108$$13108$$false$$$$$$
+241$$tc_part_type$$LEVEL_3_DESC$$length$$"{\"max\": 256}"$$13108$$13108$$false$$$$$$
+242$$tc_part_type$$LEVEL_4_DESC$$length$$"{\"max\": 640}"$$13108$$13108$$false$$$$$$
+260$$tc_part_type$$LIFTING_TACKLE$$length$$"{\"max\": 5}"$$13108$$13108$$false$$$$$$
+244$$tc_part_type$$MAC$$length$$"{\"max\": 25}"$$13108$$13108$$false$$$$$$
+233$$tc_part_type$$NSN$$complete$$$$13108$$13108$$false$$$$$$
+234$$tc_part_type$$NSN$$length$$"{\"max\": 50}"$$13108$$13108$$false$$$$$$
+261$$tc_part_type$$OBSOLETE$$length$$"{\"max\": 5}"$$13108$$13108$$false$$$$$$
+262$$tc_part_type$$OBSOLETED_BY_MJDI$$length$$"{\"max\": 5}"$$13108$$13108$$false$$$$$$
+230$$tc_part_type$$PART_TYPE_ID$$unique$$$$13108$$13108$$false$$$$$$
+231$$tc_part_type$$PART_TYPE_ID$$complete$$$$13108$$13108$$false$$$$$$
+232$$tc_part_type$$PART_TYPE_ID$$length$$"{\"max\": 32}"$$13108$$13108$$false$$$$$$
+252$$tc_part_type$$PREFERRED_SUPPORT$$length$$"{\"max\": 500}"$$13108$$13108$$false$$$$$$
+255$$tc_part_type$$PRIMARY_USAGE_COUNTER$$complete$$$$13108$$13108$$false$$$$$$
+256$$tc_part_type$$PRIMARY_USAGE_COUNTER$$length$$"{\"max\": 30}"$$13108$$13108$$false$$$$$$
+248$$tc_part_type$$PT_NAME$$length$$"{\"max\": 60}"$$13108$$13108$$false$$$$$$
+264$$tc_part_type$$PT_ORG_DS_ID$$in$$"{\"column\": \"TC_ORG_DATA.ORGANISATION_DS_ID\"}"$$13108$$13108$$false$$$$$$
+265$$tc_part_type$$PT_ORG_DS_ID$$length$$"{\"max\": 32}"$$13108$$13108$$false$$$$$$
+249$$tc_part_type$$PT_UIN$$length$$"{\"max\": 6}"$$13108$$13108$$false$$$$$$
+259$$tc_part_type$$SUPPORT_DETAILS$$length$$"{\"max\": 250}"$$13108$$13108$$false$$$$$$
+267$$tc_part_type$$TEST_CLASS$$length$$"{\"max\": 255}"$$13108$$13108$$false$$$$$$
+649$$tc_part_type_model$$BCIP_BASELINE_DRN$$length$$"{\"max\": 600}"$$80470$$80470$$false$$$$$$
+644$$tc_part_type_model$$EBS_CHILD_PART_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$80470$$80470$$false$$$$$$
+645$$tc_part_type_model$$EBS_CHILD_PART_ID$$complete$$$$80470$$80470$$false$$$$$$
+646$$tc_part_type_model$$EBS_CHILD_PART_ID$$length$$"{\"max\": 32}"$$80470$$80470$$false$$$$$$
+641$$tc_part_type_model$$EBS_PARENT_PART_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$80470$$80470$$false$$$$$$
+642$$tc_part_type_model$$EBS_PARENT_PART_ID$$complete$$$$80470$$80470$$false$$$$$$
+643$$tc_part_type_model$$EBS_PARENT_PART_ID$$length$$"{\"max\": 32}"$$80470$$80470$$false$$$$$$
+648$$tc_part_type_model$$EBS_PHYSICAL_POSITION$$length$$"{\"max\": 60}"$$80470$$80470$$false$$$$$$
+647$$tc_part_type_model$$EBS_POSTION_NUMBER$$length$$"{\"max\": 30}"$$80470$$80470$$false$$$$$$
+638$$tc_part_type_model$$MODEL_ID$$unique$$$$80470$$80470$$false$$$$$$
+639$$tc_part_type_model$$MODEL_ID$$complete$$$$80470$$80470$$false$$$$$$
+640$$tc_part_type_model$$MODEL_ID$$length$$"{\"max\": 32}"$$80470$$80470$$false$$$$$$
+652$$tc_part_type_model$$ROLE_FIT_CONFIG_ID$$length$$"{\"max\": 32}"$$80470$$80470$$false$$$$$$
+650$$tc_part_type_model$$STATUS_IMPACT$$length$$"{\"max\": 35}"$$80470$$80470$$false$$$$$$
+653$$tc_part_type_model$$STRUCT_POS_REQUIRED$$length$$"{\"max\": 5}"$$80470$$80470$$false$$$$$$
+224$$tc_ra_time$$CERTIFIER$$complete$$$$26621176$$26621176$$false$$$$$$
+225$$tc_ra_time$$CERTIFIER$$length$$"{\"max\": 3}"$$26621176$$26621176$$false$$$$$$
+228$$tc_ra_time$$RANK$$length$$"{\"max\": 20}"$$26621176$$26621176$$false$$$$$$
+220$$tc_ra_time$$RA_TIME_ID$$unique$$$$26621176$$26621176$$false$$$$$$
+221$$tc_ra_time$$RA_TIME_ID$$complete$$$$26621176$$26621176$$false$$$$$$
+222$$tc_ra_time$$RA_TIME_ID$$length$$"{\"max\": 32}"$$26621176$$26621176$$false$$$$$$
+227$$tc_ra_time$$REPAIRER_NAME$$length$$"{\"max\": 75}"$$26621176$$26621176$$false$$$$$$
+217$$tc_ra_time$$REPAIR_ACTION_ID$$in$$"{\"column\": \"TC_REPAIR_ACTS.REPAIR_ACTION_ID\"}"$$26621176$$26621176$$false$$$$$$
+218$$tc_ra_time$$REPAIR_ACTION_ID$$complete$$$$26621176$$26621176$$false$$$$$$
+219$$tc_ra_time$$REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$26621176$$26621176$$false$$$$$$
+226$$tc_ra_time$$SERVICE_NUMBER$$length$$"{\"max\": 11}"$$26621176$$26621176$$false$$$$$$
+229$$tc_ra_time$$TRADE$$length$$"{\"max\": 20}"$$26621176$$26621176$$false$$$$$$
+656$$tc_referral_data$$ASSET_ID$$complete$$$$14611$$14611$$false$$$$$$
+657$$tc_referral_data$$ASSET_ID$$length$$"{\"max\": 32}"$$14611$$14611$$false$$$$$$
+661$$tc_referral_data$$CHAIR_DETAILS$$length$$"{\"max\": 4000}"$$14611$$14611$$false$$$$$$
+664$$tc_referral_data$$CHASSIS_NUMBER$$length$$"{\"max\": 30}"$$14611$$14611$$false$$$$$$
+663$$tc_referral_data$$CLOSED_EMPLOYEE_ID$$length$$"{\"max\": 32}"$$14611$$14611$$false$$$$$$
+666$$tc_referral_data$$COMMITTEE_DECISION$$length$$"{\"max\": 500}"$$14611$$14611$$false$$$$$$
+662$$tc_referral_data$$CREATED_EMPLOYEE_ID$$length$$"{\"max\": 32}"$$14611$$14611$$false$$$$$$
+665$$tc_referral_data$$DECISION_REQUEST$$length$$"{\"max\": 500}"$$14611$$14611$$false$$$$$$
+667$$tc_referral_data$$FM_DECISION$$length$$"{\"max\": 32}"$$14611$$14611$$false$$$$$$
+668$$tc_referral_data$$FM_DECISION_OUTCOME$$length$$"{\"max\": 500}"$$14611$$14611$$false$$$$$$
+659$$tc_referral_data$$REFERRAL_NUMBER$$length$$"{\"max\": 15}"$$14611$$14611$$false$$$$$$
+660$$tc_referral_data$$REFERRAL_STAGE$$length$$"{\"max\": 500}"$$14611$$14611$$false$$$$$$
+473$$tc_rep_act_spares_req$$REPAIR_ACTION_ID$$in$$"{\"column\": \"TC_REPAIR_ACTS.REPAIR_ACTION_ID\"}"$$191952$$191952$$false$$$$$$
+474$$tc_rep_act_spares_req$$REPAIR_ACTION_ID$$complete$$$$191952$$191952$$false$$$$$$
+475$$tc_rep_act_spares_req$$REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$191952$$191952$$false$$$$$$
+479$$tc_rep_act_spares_req$$REQUIRED_NUMBER$$complete$$$$191952$$191952$$false$$$$$$
+480$$tc_rep_act_spares_req$$REQUIRED_NUMBER$$length$$"{\"max\": 5}"$$191952$$191952$$false$$$$$$
+486$$tc_rep_act_spares_req$$SERIAL_CONTROL$$length$$"{\"max\": 5}"$$191952$$191952$$false$$$$$$
+484$$tc_rep_act_spares_req$$SPARE_DESCRIPTION$$complete$$$$191952$$191952$$false$$$$$$
+485$$tc_rep_act_spares_req$$SPARE_DESCRIPTION$$length$$"{\"max\": 64}"$$191952$$191952$$false$$$$$$
+481$$tc_rep_act_spares_req$$SPARE_NSN$$complete$$$$191952$$191952$$false$$$$$$
+482$$tc_rep_act_spares_req$$SPARE_NSN$$length$$"{\"max\": 50}"$$191952$$191952$$false$$$$$$
+476$$tc_rep_act_spares_req$$SPARE_USE_ID$$unique$$$$191952$$191952$$false$$$$$$
+477$$tc_rep_act_spares_req$$SPARE_USE_ID$$complete$$$$191952$$191952$$false$$$$$$
+478$$tc_rep_act_spares_req$$SPARE_USE_ID$$length$$"{\"max\": 32}"$$191952$$191952$$false$$$$$$
+340$$tc_rep_act_spares_used$$IS_SPARE_CONSUMED$$length$$"{\"max\": 5}"$$2225212$$2225212$$false$$$$$$
+336$$tc_rep_act_spares_used$$NSN$$complete$$$$2225212$$2225212$$false$$$$$$
+337$$tc_rep_act_spares_used$$NSN$$length$$"{\"max\": 50}"$$2225212$$2225212$$false$$$$$$
+333$$tc_rep_act_spares_used$$QUANTITY_OF_ITEMS_NOT_USED$$complete$$$$2225212$$2225212$$false$$$$$$
+332$$tc_rep_act_spares_used$$QUANTITY_OF_ITEMS_USED$$complete$$$$2225212$$2225212$$false$$$$$$
+326$$tc_rep_act_spares_used$$REPAIR_ACTION_DS_ID$$in$$"{\"column\": \"TC_REPAIR_ACTS.REPAIR_ACTION_ID\"}"$$2225212$$2225212$$false$$$$$$
+327$$tc_rep_act_spares_used$$REPAIR_ACTION_DS_ID$$complete$$$$2225212$$2225212$$false$$$$$$
+328$$tc_rep_act_spares_used$$REPAIR_ACTION_DS_ID$$length$$"{\"max\": 32}"$$2225212$$2225212$$false$$$$$$
+334$$tc_rep_act_spares_used$$REQUIRED_NUMBER$$complete$$$$2225212$$2225212$$false$$$$$$
+335$$tc_rep_act_spares_used$$REQUIRED_NUMBER$$length$$"{\"max\": 5}"$$2225212$$2225212$$false$$$$$$
+338$$tc_rep_act_spares_used$$SPARE_DESCRIPTION$$complete$$$$2225212$$2225212$$false$$$$$$
+339$$tc_rep_act_spares_used$$SPARE_DESCRIPTION$$length$$"{\"max\": 64}"$$2225212$$2225212$$false$$$$$$
+329$$tc_rep_act_spares_used$$SPARE_USE_ID$$unique$$$$2225212$$2225212$$false$$$$$$
+330$$tc_rep_act_spares_used$$SPARE_USE_ID$$complete$$$$2225212$$2225212$$false$$$$$$
+331$$tc_rep_act_spares_used$$SPARE_USE_ID$$length$$"{\"max\": 32}"$$2225212$$2225212$$false$$$$$$
+272$$tc_repair_acts$$FAULT_ID$$complete$$$$17362089$$17362089$$false$$$$$$
+273$$tc_repair_acts$$FAULT_ID$$length$$"{\"max\": 32}"$$17362089$$17362089$$false$$$$$$
+279$$tc_repair_acts$$INSPECTION_RESULT$$length$$"{\"max\": 500}"$$17362089$$17362089$$false$$$$$$
+282$$tc_repair_acts$$RA_CONDITION$$length$$"{\"max\": 2000}"$$17362089$$17362089$$false$$$$$$
+284$$tc_repair_acts$$RA_REPAIR_LEVEL$$length$$"{\"max\": 500}"$$17362089$$17362089$$false$$$$$$
+274$$tc_repair_acts$$RA_TYPE$$length$$"{\"max\": 500}"$$17362089$$17362089$$false$$$$$$
+287$$tc_repair_acts$$REPAIR_ACTION_COMMENTS$$length$$"{\"max\": 4000}"$$17362089$$17362089$$false$$$$$$
+277$$tc_repair_acts$$REPAIR_ACTION_DESCRIPTION$$complete$$$$17362089$$17362089$$false$$$$$$
+278$$tc_repair_acts$$REPAIR_ACTION_DESCRIPTION$$length$$"{\"max\": 4000}"$$17362089$$17362089$$false$$$$$$
+268$$tc_repair_acts$$REPAIR_ACTION_ID$$unique$$$$17362089$$17362089$$false$$$$$$
+269$$tc_repair_acts$$REPAIR_ACTION_ID$$complete$$$$17362089$$17362089$$false$$$$$$
+270$$tc_repair_acts$$REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$17362089$$17362089$$false$$$$$$
+285$$tc_repair_acts$$REPAIR_SECTION$$length$$"{\"max\": 75}"$$17362089$$17362089$$false$$$$$$
+286$$tc_repair_acts$$REPAIR_SECTION_LOCATION$$length$$"{\"max\": 100}"$$17362089$$17362089$$false$$$$$$
+290$$tc_repair_acts$$STANDARD_RAC_DESCRIPTION$$length$$"{\"max\": 200}"$$17362089$$17362089$$false$$$$$$
+289$$tc_repair_acts$$STANDARD_REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$17362089$$17362089$$false$$$$$$
+281$$tc_repair_acts$$SUB_SYSTEM$$length$$"{\"max\": 50}"$$17362089$$17362089$$false$$$$$$
+280$$tc_repair_acts$$SYSTEM$$length$$"{\"max\": 110}"$$17362089$$17362089$$false$$$$$$
+283$$tc_repair_acts$$WORK_STATUS$$length$$"{\"max\": 500}"$$17362089$$17362089$$false$$$$$$
+696$$tc_req_responses$$LINE_ITEM_ID$$length$$"{\"max\": 32}"$$4955503$$4955503$$false$$$$$$
+702$$tc_req_responses$$NSN_PROVIDED$$length$$"{\"max\": 13}"$$4955503$$4955503$$false$$$$$$
+700$$tc_req_responses$$NSN_REQUESTED$$length$$"{\"max\": 13}"$$4955503$$4955503$$false$$$$$$
+699$$tc_req_responses$$PROGRESS$$length$$"{\"max\": 2000}"$$4955503$$4955503$$false$$$$$$
+690$$tc_req_responses$$RESPONSE_ID$$unique$$$$4955503$$4955503$$false$$$$$$
+691$$tc_req_responses$$RESPONSE_ID$$complete$$$$4955503$$4955503$$false$$$$$$
+692$$tc_req_responses$$RESPONSE_ID$$length$$"{\"max\": 32}"$$4955503$$4955503$$false$$$$$$
+697$$tc_req_responses$$SOLUTION_ID$$length$$"{\"max\": 2}"$$4955503$$4955503$$false$$$$$$
+698$$tc_req_responses$$STATUS$$length$$"{\"max\": 2}"$$4955503$$4955503$$false$$$$$$
+687$$tc_requisitions$$JAMES_REQUISITION_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+672$$tc_requisitions$$LINE_ITEM_ID$$unique$$$$2089817$$2089817$$false$$$$$$
+673$$tc_requisitions$$LINE_ITEM_ID$$complete$$$$2089817$$2089817$$false$$$$$$
+674$$tc_requisitions$$LINE_ITEM_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+686$$tc_requisitions$$REASON_FOR_REQUISITION$$length$$"{\"max\": 500}"$$2089817$$2089817$$false$$$$$$
+678$$tc_requisitions$$REPAIR_ACTION_ID$$in$$"{\"column\": \"TC_REPAIR_ACTS.REPAIR_ACTION_ID\"}"$$2089817$$2089817$$false$$$$$$
+679$$tc_requisitions$$REPAIR_ACTION_ID$$complete$$$$2089817$$2089817$$false$$$$$$
+680$$tc_requisitions$$REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+681$$tc_requisitions$$REQUESTED_NSN$$length$$"{\"max\": 50}"$$2089817$$2089817$$false$$$$$$
+683$$tc_requisitions$$REQUESTED_NSN_DESCRIPTION$$length$$"{\"max\": 64}"$$2089817$$2089817$$false$$$$$$
+670$$tc_requisitions$$REQUISITION_ID$$complete$$$$2089817$$2089817$$false$$$$$$
+671$$tc_requisitions$$REQUISITION_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+684$$tc_requisitions$$REQUISITION_STATUS$$length$$"{\"max\": 255}"$$2089817$$2089817$$false$$$$$$
+677$$tc_requisitions$$SPARE_REQUIREMENT_DS_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+685$$tc_requisitions$$SPECIAL_OPERATIONS_CODE$$length$$"{\"max\": 4}"$$2089817$$2089817$$false$$$$$$
+689$$tc_requisitions$$STOCK_ACCNT_ID$$length$$"{\"max\": 32}"$$2089817$$2089817$$false$$$$$$
+442$$tc_role_fit_asset$$ASSET_ID$$complete$$$$30223$$30223$$false$$$$$$
+443$$tc_role_fit_asset$$ASSET_ID$$length$$"{\"max\": 32}"$$30223$$30223$$false$$$$$$
+440$$tc_role_fit_asset$$ASSET_ID,ROLE_FIT_ID$$unique$$$$30223$$30223$$false$$$$$$
+445$$tc_role_fit_asset$$ROLE_FIT_ID$$complete$$$$30223$$30223$$false$$$$$$
+446$$tc_role_fit_asset$$ROLE_FIT_ID$$length$$"{\"max\": 32}"$$30223$$30223$$false$$$$$$
+461$$tc_role_fit_detail$$ALT_PART_TYPE_ID$$length$$"{\"max\": 32}"$$672$$672$$false$$$$$$
+458$$tc_role_fit_detail$$FIT_PART_TYPE_ID$$in$$"{\"column\": \"TC_PART_TYPE.PART_TYPE_ID\"}"$$672$$672$$false$$$$$$
+459$$tc_role_fit_detail$$FIT_PART_TYPE_ID$$length$$"{\"max\": 32}"$$672$$672$$false$$$$$$
+454$$tc_role_fit_detail$$IS_PT_CONTROLLED$$length$$"{\"max\": 5}"$$672$$672$$false$$$$$$
+456$$tc_role_fit_detail$$MANDATORY_POSITION$$length$$"{\"max\": 5}"$$672$$672$$false$$$$$$
+450$$tc_role_fit_detail$$ROLE_FIT_CODE$$complete$$$$672$$672$$false$$$$$$
+451$$tc_role_fit_detail$$ROLE_FIT_CODE$$length$$"{\"max\": 10}"$$672$$672$$false$$$$$$
+463$$tc_role_fit_detail$$ROLE_FIT_CONFIG_ID$$length$$"{\"max\": 32}"$$672$$672$$false$$$$$$
+452$$tc_role_fit_detail$$ROLE_FIT_DESCRIPTION$$complete$$$$672$$672$$false$$$$$$
+453$$tc_role_fit_detail$$ROLE_FIT_DESCRIPTION$$length$$"{\"max\": 255}"$$672$$672$$false$$$$$$
+448$$tc_role_fit_detail$$ROLE_FIT_ID$$complete$$$$672$$672$$false$$$$$$
+449$$tc_role_fit_detail$$ROLE_FIT_ID$$length$$"{\"max\": 32}"$$672$$672$$false$$$$$$
+457$$tc_role_fit_detail$$STATE_IF_MISSING$$length$$"{\"max\": 2000}"$$672$$672$$false$$$$$$
+455$$tc_role_fit_detail$$STRUCTURE_POSITION$$length$$"{\"max\": 30}"$$672$$672$$false$$$$$$
+433$$tc_structures$$CAPABILITY_GROUP$$length$$"{\"max\": 500}"$$400131$$400131$$false$$$$$$
+428$$tc_structures$$FITTED_ASSET_ID$$unique$$$$400131$$400131$$false$$$$$$
+429$$tc_structures$$FITTED_ASSET_ID$$complete$$$$400131$$400131$$false$$$$$$
+431$$tc_structures$$FITTED_ASSET_ID$$length$$"{\"max\": 32}"$$400131$$400131$$false$$$$$$
+434$$tc_structures$$FITTED_PART_TYPE_ID$$complete$$$$400131$$400131$$false$$$$$$
+436$$tc_structures$$FITTED_PART_TYPE_ID$$length$$"{\"max\": 32}"$$400131$$400131$$false$$$$$$
+437$$tc_structures$$MODEL_ID$$complete$$$$400131$$400131$$false$$$$$$
+439$$tc_structures$$MODEL_ID$$length$$"{\"max\": 32}"$$400131$$400131$$false$$$$$$
+425$$tc_structures$$PARENT_ASSET_ID$$complete$$$$400131$$400131$$false$$$$$$
+426$$tc_structures$$PARENT_ASSET_ID$$in$$"{\"column\": \"TC_INSTANCES.ASSET_ID\"}"$$400131$$400131$$false$$$$$$
+427$$tc_structures$$PARENT_ASSET_ID$$length$$"{\"max\": 32}"$$400131$$400131$$false$$$$$$
+432$$tc_structures$$PHYSICAL_POSITION$$length$$"{\"max\": 60}"$$400131$$400131$$false$$$$$$
+348$$tc_supply_issue_id$$ISSUE_ID$$unique$$$$1429922$$1429922$$false$$$$$$
+349$$tc_supply_issue_id$$ISSUE_ID$$complete$$$$1429922$$1429922$$false$$$$$$
+350$$tc_supply_issue_id$$ISSUE_ID$$length$$"{\"max\": 32}"$$1429922$$1429922$$false$$$$$$
+341$$tc_supply_issue_id$$REPAIR_ACTION_DS_ID$$in$$"{\"column\": \"TC_REPAIR_ACTS.REPAIR_ACTION_ID\"}"$$1429922$$1429922$$false$$$$$$
+342$$tc_supply_issue_id$$REPAIR_ACTION_DS_ID$$complete$$$$1429922$$1429922$$false$$$$$$
+343$$tc_supply_issue_id$$REPAIR_ACTION_DS_ID$$length$$"{\"max\": 32}"$$1429922$$1429922$$false$$$$$$
+344$$tc_supply_issue_id$$REQUISITION_ID$$complete$$$$1429922$$1429922$$false$$$$$$
+345$$tc_supply_issue_id$$REQUISITION_ID$$length$$"{\"max\": 32}"$$1429922$$1429922$$false$$$$$$
+347$$tc_supply_issue_id$$STORES_REQUISITION_DATE$$complete$$$$1429922$$1429922$$false$$$$$$
+346$$tc_supply_issue_id$$SUPPLY_CHAIN_ISSUE_ID$$length$$"{\"max\": 40}"$$1429922$$1429922$$false$$$$$$
+298$$tc_type_usage_counters$$PARAMETER_DESC$$complete$$$$16437$$16437$$false$$$$$$
+299$$tc_type_usage_counters$$PARAMETER_DESC$$length$$"{\"max\": 50}"$$16437$$16437$$false$$$$$$
+293$$tc_type_usage_counters$$PART_TYPE_ID$$complete$$$$16437$$16437$$false$$$$$$
+294$$tc_type_usage_counters$$PART_TYPE_ID$$length$$"{\"max\": 32}"$$16437$$16437$$false$$$$$$
+300$$tc_type_usage_counters$$USAGE_CATEGORY$$complete$$$$16437$$16437$$false$$$$$$
+301$$tc_type_usage_counters$$USAGE_CATEGORY$$length$$"{\"max\": 500}"$$16437$$16437$$false$$$$$$
+296$$tc_type_usage_counters$$USAGE_PARAMETER_NAME$$complete$$$$16437$$16437$$false$$$$$$
+297$$tc_type_usage_counters$$USAGE_PARAMETER_NAME$$length$$"{\"max\": 30}"$$16437$$16437$$false$$$$$$
+708$$tc_work_escalation$$HIGHER_ASSET_ID$$complete$$$$130438$$130438$$false$$$$$$
+710$$tc_work_escalation$$HIGHER_ASSET_ID$$length$$"{\"max\": 32}"$$130438$$130438$$false$$$$$$
+726$$tc_work_escalation$$HIGHER_ASSET_POSITION$$length$$"{\"max\": 32}"$$130438$$130438$$false$$$$$$
+717$$tc_work_escalation$$NEXT_LEVEL_CONDITION$$complete$$$$130438$$130438$$false$$$$$$
+718$$tc_work_escalation$$NEXT_LEVEL_CONDITION$$length$$"{\"max\": 100}"$$130438$$130438$$false$$$$$$
+719$$tc_work_escalation$$RA_CONDITION$$complete$$$$130438$$130438$$false$$$$$$
+720$$tc_work_escalation$$RA_CONDITION$$length$$"{\"max\": 100}"$$130438$$130438$$false$$$$$$
+721$$tc_work_escalation$$RA_STATE$$complete$$$$130438$$130438$$false$$$$$$
+722$$tc_work_escalation$$RA_STATE$$length$$"{\"max\": 6}"$$130438$$130438$$false$$$$$$
+704$$tc_work_escalation$$REPAIR_ACTION_ID$$complete$$$$130438$$130438$$false$$$$$$
+706$$tc_work_escalation$$REPAIR_ACTION_ID$$length$$"{\"max\": 32}"$$130438$$130438$$false$$$$$$
+712$$tc_work_escalation$$WORK_ASSET_ID$$complete$$$$130438$$130438$$false$$$$$$
+714$$tc_work_escalation$$WORK_ASSET_ID$$length$$"{\"max\": 32}"$$130438$$130438$$false$$$$$$
+724$$tc_work_escalation$$WORK_ASSET_POSITION$$length$$"{\"max\": 32}"$$130438$$130438$$false$$$$$$
+715$$tc_work_escalation$$WORK_CATEGORY$$complete$$$$130438$$130438$$false$$$$$$
+716$$tc_work_escalation$$WORK_CATEGORY$$length$$"{\"max\": 20}"$$130438$$130438$$false$$$$$$
+323$$tc_work_requests$$ALT_REPAIR_ORGANISATION$$length$$"{\"max\": 60}"$$2146865$$2146865$$false$$$$$$
+325$$tc_work_requests$$ALT_REPAIR_ORGANISATION_ID$$length$$"{\"max\": 32}"$$2146865$$2146865$$false$$$$$$
+312$$tc_work_requests$$FAULT_ID$$complete$$$$2146865$$2146865$$false$$$$$$
+313$$tc_work_requests$$FAULT_ID$$length$$"{\"max\": 32}"$$2146865$$2146865$$false$$$$$$
+310$$tc_work_requests$$FAULT_ID,WORK_REQUEST_ID$$unique$$$$2146865$$2146865$$false$$$$$$
+314$$tc_work_requests$$JOB_CARD_STATUS$$complete$$$$2146865$$2146865$$false$$$$$$
+315$$tc_work_requests$$JOB_CARD_STATUS$$length$$"{\"max\": 32}"$$2146865$$2146865$$false$$$$$$
+319$$tc_work_requests$$REPAIR_ORGANISATION$$complete$$$$2146865$$2146865$$false$$$$$$
+320$$tc_work_requests$$REPAIR_ORGANISATION$$length$$"{\"max\": 60}"$$2146865$$2146865$$false$$$$$$
+321$$tc_work_requests$$REPAIR_ORGANISATION_ID$$in$$"{\"column\": \"TC_ORG_DATA.ORGANISATION_DS_ID\"}"$$2146865$$2146865$$false$$$$$$
+322$$tc_work_requests$$REPAIR_ORGANISATION_ID$$length$$"{\"max\": 32}"$$2146865$$2146865$$false$$$$$$
+316$$tc_work_requests$$REQUIRED_BY_DATE$$complete$$$$2146865$$2146865$$false$$$$$$
+317$$tc_work_requests$$WORK_REQUEST_ID$$complete$$$$2146865$$2146865$$false$$$$$$
+318$$tc_work_requests$$WORK_REQUEST_ID$$length$$"{\"max\": 32}"$$2146865$$2146865$$false$$$$$$

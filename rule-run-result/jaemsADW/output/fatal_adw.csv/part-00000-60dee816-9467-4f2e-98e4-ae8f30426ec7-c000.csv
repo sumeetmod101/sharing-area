@@ -1,0 +1,160 @@
+rule_id$$table$$columns$$check$$check_details$$required$$valid$$hasSample$$tags$$errorMessage$$failedRowsSample
+727$$tc_activity$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'EVENT_ID', 'ATUD_START_DATE', 'ATUD_END_DATE', 'ATUD_CONTROL_NUMBER', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'START_ODO', 'END_ODO', 'EVENT_USAGE', 'EVENT_OWNER_UIN', 'EVENT_OWNER_NAME', 'EVENT_NAME', 'ACTIVITY_PLANNED_START', 'ACTIVITY_PLANNED_END', 'ACTIVITY_SPECIAL_INSTRUCTIONS', 'UNIT_IDENTITY_NUMBER', 'DESTINATION', 'FUEL_DRAWN_SUM', 'DESCRIPTION', 'DRIVER_NAME', 'DRIVER_SERVICE_NUMBER', 'DRIVER_RANK', 'AUTH_SERVICE_NUMBER', 'AUTH_SURNAME', 'AUTH_INITIALS', 'ACTIVITY_TYPE', 'ACTIVITY_TYPE_DESCRIPTION', 'ACTIVITY_ID']$$
+728$$tc_activity$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'EVENT_ID', 'ATUD_START_DATE', 'ATUD_END_DATE', 'ATUD_CONTROL_NUMBER', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'START_ODO', 'END_ODO', 'EVENT_USAGE', 'EVENT_OWNER_UIN', 'EVENT_OWNER_NAME', 'EVENT_NAME', 'ACTIVITY_PLANNED_START', 'ACTIVITY_PLANNED_END', 'ACTIVITY_SPECIAL_INSTRUCTIONS', 'UNIT_IDENTITY_NUMBER', 'DESTINATION', 'FUEL_DRAWN_SUM', 'DESCRIPTION', 'DRIVER_NAME', 'DRIVER_SERVICE_NUMBER', 'DRIVER_RANK', 'AUTH_SERVICE_NUMBER', 'AUTH_SURNAME', 'AUTH_INITIALS', 'ACTIVITY_TYPE', 'ACTIVITY_TYPE_DESCRIPTION', 'ACTIVITY_ID']$$
+727$$tc_instances$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'ASSET_ID', 'NSN', 'SERIAL_NUMBER', 'ERM', 'CUSTODIAN_UIN', 'CUSTODIAN_UNIT', 'EQUIPMENT_FAMILY_GROUP', 'HOLDER_UIN', 'HOLDER_NAME', 'MAINTENANCE_GROUP', 'ALTERNATE_ERM', 'EQUIPMENT_STATE', 'IN_USE_PLACEMENT', 'AC_STATE', 'AC_STATE_DATE', 'COLOUR', 'STORAGE_AREA', 'STORAGE_LOCATION', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'DATE_LAST_OVERHAUL', 'DGVW', 'MAM', 'GTW', 'ULW', 'PLATFORM_BCIP', 'WARRANTY_EXPIRATION_DATE', 'DATE_INTO_SERVICE', 'READINESS_LEVEL', 'ESTIMATED_END_DATE', 'HOLDER_ORG_ID', 'CUSTODIAN_ORG_ID', 'ADR_COMPLIANT', 'ADR_CERT_DUE_DATE', 'ASSET_UID', 'OUT_OF_SERVICE_DATE', 'MODIFICATION_STRIKE', 'LOCATION_ID', 'LAST_REBIRTH_DATE', 'OWNING_DEPOT_DS_ID', 'ADDL_OWN_DEPOT_DS_IDS']$$
+727$$tc_instances$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'ASSET_ID', 'NSN', 'SERIAL_NUMBER', 'ERM', 'CUSTODIAN_UIN', 'CUSTODIAN_UNIT', 'EQUIPMENT_FAMILY_GROUP', 'HOLDER_UIN', 'HOLDER_NAME', 'MAINTENANCE_GROUP', 'ALTERNATE_ERM', 'EQUIPMENT_STATE', 'IN_USE_PLACEMENT', 'AC_STATE', 'AC_STATE_DATE', 'COLOUR', 'STORAGE_AREA', 'STORAGE_LOCATION', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'DATE_LAST_OVERHAUL', 'DGVW', 'MAM', 'GTW', 'ULW', 'PLATFORM_BCIP', 'WARRANTY_EXPIRATION_DATE', 'DATE_INTO_SERVICE', 'READINESS_LEVEL', 'ESTIMATED_END_DATE', 'HOLDER_ORG_ID', 'CUSTODIAN_ORG_ID', 'ADR_COMPLIANT', 'ADR_CERT_DUE_DATE', 'ASSET_UID', 'OUT_OF_SERVICE_DATE', 'MODIFICATION_STRIKE', 'LOCATION_ID', 'LAST_REBIRTH_DATE', 'OWNING_DEPOT_DS_ID', 'ADDL_OWN_DEPOT_DS_IDS']$$
+728$$tc_instances$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'ASSET_ID', 'NSN', 'SERIAL_NUMBER', 'ERM', 'CUSTODIAN_UIN', 'CUSTODIAN_UNIT', 'EQUIPMENT_FAMILY_GROUP', 'HOLDER_UIN', 'HOLDER_NAME', 'MAINTENANCE_GROUP', 'ALTERNATE_ERM', 'EQUIPMENT_STATE', 'IN_USE_PLACEMENT', 'AC_STATE', 'AC_STATE_DATE', 'COLOUR', 'STORAGE_AREA', 'STORAGE_LOCATION', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'DATE_LAST_OVERHAUL', 'DGVW', 'MAM', 'GTW', 'ULW', 'PLATFORM_BCIP', 'WARRANTY_EXPIRATION_DATE', 'DATE_INTO_SERVICE', 'READINESS_LEVEL', 'ESTIMATED_END_DATE', 'HOLDER_ORG_ID', 'CUSTODIAN_ORG_ID', 'ADR_COMPLIANT', 'ADR_CERT_DUE_DATE', 'ASSET_UID', 'OUT_OF_SERVICE_DATE', 'MODIFICATION_STRIKE', 'LOCATION_ID', 'LAST_REBIRTH_DATE', 'OWNING_DEPOT_DS_ID', 'ADDL_OWN_DEPOT_DS_IDS']$$
+728$$tc_instances$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'ASSET_ID', 'NSN', 'SERIAL_NUMBER', 'ERM', 'CUSTODIAN_UIN', 'CUSTODIAN_UNIT', 'EQUIPMENT_FAMILY_GROUP', 'HOLDER_UIN', 'HOLDER_NAME', 'MAINTENANCE_GROUP', 'ALTERNATE_ERM', 'EQUIPMENT_STATE', 'IN_USE_PLACEMENT', 'AC_STATE', 'AC_STATE_DATE', 'COLOUR', 'STORAGE_AREA', 'STORAGE_LOCATION', 'USAGE_COUNTER_TYPE', 'USAGE_COUNTER_UNIT', 'DATE_LAST_OVERHAUL', 'DGVW', 'MAM', 'GTW', 'ULW', 'PLATFORM_BCIP', 'WARRANTY_EXPIRATION_DATE', 'DATE_INTO_SERVICE', 'READINESS_LEVEL', 'ESTIMATED_END_DATE', 'HOLDER_ORG_ID', 'CUSTODIAN_ORG_ID', 'ADR_COMPLIANT', 'ADR_CERT_DUE_DATE', 'ASSET_UID', 'OUT_OF_SERVICE_DATE', 'MODIFICATION_STRIKE', 'LOCATION_ID', 'LAST_REBIRTH_DATE', 'OWNING_DEPOT_DS_ID', 'ADDL_OWN_DEPOT_DS_IDS']$$
+55$$tc_instances$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+101$$tc_maint_assoc$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+147$$tc_mod_codes$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+727$$tc_mro_fault$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'FAULT_ID', 'ACTUAL_START_DATE', 'REPAIR_UNIT', 'REPAIR_UNIT_UIN', 'PLANNED_START_DATE', 'WORK_OBJ_COMPLETION_DATE', 'PRIMARY_USAGE_AT_REPORT', 'COMMENTS', 'ESTIMATED_REPAIR_TIME', 'WORK_CATEGORY', 'FAULT_REPAIR_LEVEL', 'FAULT_DESCRIPTION', 'REASON_FOR_WORK', 'FAULT_DISPLAY_ID', 'FAULT_STATE', 'DATE_FAULT_OCCURRED', 'DATE_RECTIFIED', 'DATE_RECORDED', 'FAULT_ACTUAL_REPORTED_BY', 'FAULT_REPORTED_BY_SERVICE', 'FAULT_REPORTED_BY_RANK', 'FAULT_REPORTED_BY_TRADE', 'FAULT_CLOSED_BY_NAME', 'FAULT_CLOSED_BY_SERVICE', 'FAULT_CLOSED_BY_RANK', 'FAULT_CLOSED_BY_TRADE', 'PRIMARY_USAGE_AT_CLOSE', 'PRIMARY_USAGE_AT_START', 'FAULT_GROUP', 'MISSION_IMPACT', 'ESTIMATED_REPAIR_DATE', 'STD_PROB_REPORT_ID', 'STD_PROB_REPORT_DESCRIPTION', 'ESCALATE_FAULT']$$
+728$$tc_mro_fault$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'FAULT_ID', 'ACTUAL_START_DATE', 'REPAIR_UNIT', 'REPAIR_UNIT_UIN', 'PLANNED_START_DATE', 'WORK_OBJ_COMPLETION_DATE', 'PRIMARY_USAGE_AT_REPORT', 'COMMENTS', 'ESTIMATED_REPAIR_TIME', 'WORK_CATEGORY', 'FAULT_REPAIR_LEVEL', 'FAULT_DESCRIPTION', 'REASON_FOR_WORK', 'FAULT_DISPLAY_ID', 'FAULT_STATE', 'DATE_FAULT_OCCURRED', 'DATE_RECTIFIED', 'DATE_RECORDED', 'FAULT_ACTUAL_REPORTED_BY', 'FAULT_REPORTED_BY_SERVICE', 'FAULT_REPORTED_BY_RANK', 'FAULT_REPORTED_BY_TRADE', 'FAULT_CLOSED_BY_NAME', 'FAULT_CLOSED_BY_SERVICE', 'FAULT_CLOSED_BY_RANK', 'FAULT_CLOSED_BY_TRADE', 'PRIMARY_USAGE_AT_CLOSE', 'PRIMARY_USAGE_AT_START', 'FAULT_GROUP', 'MISSION_IMPACT', 'ESTIMATED_REPAIR_DATE', 'STD_PROB_REPORT_ID', 'STD_PROB_REPORT_DESCRIPTION', 'ESCALATE_FAULT']$$
+727$$tc_mro_maint_mod_fault$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'FAULT_ID', 'ACTUAL_START_DATE', 'REPAIR_UNIT', 'REPAIR_UNIT_UIN', 'PLANNED_START_DATE', 'WORK_OBJ_COMPLETION_DATE', 'ESTIMATED_REPAIR_TIME', 'WORK_CATEGORY', 'FAULT_REPAIR_LEVEL', 'FAULT_DESCRIPTION', 'REASON_FOR_WORK', 'DATE_FAULT_OCCURRED', 'FAULT_CLOSED_BY_NAME', 'FAULT_CLOSED_BY_SERVICE', 'FAULT_CLOSED_BY_RANK', 'FAULT_CLOSED_BY_TRADE', 'REPAIR_SECTION', 'REPAIR_SECTION_LOCATION', 'FAULT_STATE', 'ESTIMATED_REPAIR_DATE', 'ESCALATE_FAULT']$$
+728$$tc_mro_maint_mod_fault$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ASSET_ID', 'FAULT_ID', 'ACTUAL_START_DATE', 'REPAIR_UNIT', 'REPAIR_UNIT_UIN', 'PLANNED_START_DATE', 'WORK_OBJ_COMPLETION_DATE', 'ESTIMATED_REPAIR_TIME', 'WORK_CATEGORY', 'FAULT_REPAIR_LEVEL', 'FAULT_DESCRIPTION', 'REASON_FOR_WORK', 'DATE_FAULT_OCCURRED', 'FAULT_CLOSED_BY_NAME', 'FAULT_CLOSED_BY_SERVICE', 'FAULT_CLOSED_BY_RANK', 'FAULT_CLOSED_BY_TRADE', 'REPAIR_SECTION', 'REPAIR_SECTION_LOCATION', 'FAULT_STATE', 'ESTIMATED_REPAIR_DATE', 'ESCALATE_FAULT']$$
+727$$tc_org_data$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ORGANISATION_DS_ID', 'ORGANISATION_NAME', 'ORGANISATION_SHORT_NAME', 'PARENT_ORGANISATION_DS_ID', 'PRECEDENCE_CODE', 'ORGANISATION_UIN', 'ORGANISATION_LEVEL_TYPE', 'ORGANISATION_ID', 'PARENT_ORGANISATION_ID', 'ADDRESS', 'POST_CODE', 'SHADOW_ORG', 'ACCOUNTING_UIN', 'IPT', 'ORGANISATION_TYPE', 'PRIMARY_REPAIR_LEVEL', 'READINESS_LEVEL', 'THEATRE_CODE_PEACE', 'THEATRE_CODE_PEACE_DESCRIPTION', 'THEATRE_CODE_WAR', 'THEATRE_CODE_WAR_DESCRIPTION', 'PPC_FUNCTION', 'OWNING_DEPOT', 'FLEET_MANAGER_ORGANISATION', 'ES_OPS', 'SECONDARY_AUTHORISING_ORGANISATION', 'BABCOCK_DSG', 'DISABLED', 'DELETED']$$
+727$$tc_org_data$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ORGANISATION_DS_ID', 'ORGANISATION_NAME', 'ORGANISATION_SHORT_NAME', 'PARENT_ORGANISATION_DS_ID', 'PRECEDENCE_CODE', 'ORGANISATION_UIN', 'ORGANISATION_LEVEL_TYPE', 'ORGANISATION_ID', 'PARENT_ORGANISATION_ID', 'ADDRESS', 'POST_CODE', 'SHADOW_ORG', 'ACCOUNTING_UIN', 'IPT', 'ORGANISATION_TYPE', 'PRIMARY_REPAIR_LEVEL', 'READINESS_LEVEL', 'THEATRE_CODE_PEACE', 'THEATRE_CODE_PEACE_DESCRIPTION', 'THEATRE_CODE_WAR', 'THEATRE_CODE_WAR_DESCRIPTION', 'PPC_FUNCTION', 'OWNING_DEPOT', 'FLEET_MANAGER_ORGANISATION', 'ES_OPS', 'SECONDARY_AUTHORISING_ORGANISATION', 'BABCOCK_DSG', 'DISABLED', 'DELETED']$$
+728$$tc_org_data$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ORGANISATION_DS_ID', 'ORGANISATION_NAME', 'ORGANISATION_SHORT_NAME', 'PARENT_ORGANISATION_DS_ID', 'PRECEDENCE_CODE', 'ORGANISATION_UIN', 'ORGANISATION_LEVEL_TYPE', 'ORGANISATION_ID', 'PARENT_ORGANISATION_ID', 'ADDRESS', 'POST_CODE', 'SHADOW_ORG', 'ACCOUNTING_UIN', 'IPT', 'ORGANISATION_TYPE', 'PRIMARY_REPAIR_LEVEL', 'READINESS_LEVEL', 'THEATRE_CODE_PEACE', 'THEATRE_CODE_PEACE_DESCRIPTION', 'THEATRE_CODE_WAR', 'THEATRE_CODE_WAR_DESCRIPTION', 'PPC_FUNCTION', 'OWNING_DEPOT', 'FLEET_MANAGER_ORGANISATION', 'ES_OPS', 'SECONDARY_AUTHORISING_ORGANISATION', 'BABCOCK_DSG', 'DISABLED', 'DELETED']$$
+728$$tc_org_data$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['ORGANISATION_DS_ID', 'ORGANISATION_NAME', 'ORGANISATION_SHORT_NAME', 'PARENT_ORGANISATION_DS_ID', 'PRECEDENCE_CODE', 'ORGANISATION_UIN', 'ORGANISATION_LEVEL_TYPE', 'ORGANISATION_ID', 'PARENT_ORGANISATION_ID', 'ADDRESS', 'POST_CODE', 'SHADOW_ORG', 'ACCOUNTING_UIN', 'IPT', 'ORGANISATION_TYPE', 'PRIMARY_REPAIR_LEVEL', 'READINESS_LEVEL', 'THEATRE_CODE_PEACE', 'THEATRE_CODE_PEACE_DESCRIPTION', 'THEATRE_CODE_WAR', 'THEATRE_CODE_WAR_DESCRIPTION', 'PPC_FUNCTION', 'OWNING_DEPOT', 'FLEET_MANAGER_ORGANISATION', 'ES_OPS', 'SECONDARY_AUTHORISING_ORGANISATION', 'BABCOCK_DSG', 'DISABLED', 'DELETED']$$
+390$$tc_org_data$$ADDRESS$$in$$"{\"dictionary\": \"ADDRESS\"}"$$0$$0$$false$$$$"failed to perform join on 'ADDRESS': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+375$$tc_org_data$$ORGANISATION_SHORT_NAME$$in$$"{\"dictionary\": \"JAMES_R_SHORTNAME\"}"$$0$$0$$false$$$$"failed to perform join on 'ORGANISATION_SHORT_NAME': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+381$$tc_org_data$$ORGANISATION_UIN$$in$$"{\"dictionary\": \"UIN\"}"$$0$$0$$false$$$$"failed to perform join on 'ORGANISATION_UIN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+392$$tc_org_data$$POST_CODE$$in$$"{\"dictionary\": \"POST_CODE\"}"$$0$$0$$false$$$$"failed to perform join on 'POST_CODE': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+727$$tc_part_type$$*_UIN$$custom$$"{\"type\": \"like\", \"x\": \"CA%\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'NSN', 'LEVEL_1_DESC', 'LEVEL_2_DESC', 'LEVEL_3_DESC', 'LEVEL_4_DESC', 'EQUIPMENT_TYPE', 'MAC', 'EQUIPMENT_UNLADEN_WEIGHT', 'EQUIPMENT_WIDTH', 'EQUIPMENT_HEIGHT', 'DESIGN_GROSS_VEHICLE_WEIGHT', 'EQUIP_WEIGHT_TYPE', 'EQUIPMENT_FAMILY_GROUP', 'PT_NAME', 'PT_UIN', 'EQUIPMENT_CATEGORY', 'FUEL_TYPE', 'PREFERRED_SUPPORT', 'ESP_SPECIFIC', 'ESP_COMMON', 'PRIMARY_USAGE_COUNTER', 'LEAR_CODE', 'LEAR_CODE_DESC', 'SPARE_COST', 'EQUIPMENT_LENGTH', 'MAM', 'GTW', 'SUPPORT_DETAILS', 'LIFTING_TACKLE', 'OBSOLETE', 'DATE_OBSOLETED', 'OBSOLETED_BY_MJDI', 'DATE_OBSOLETED_BY_MJDI', 'OUT_OF_SERVICE_DATE', 'EBS_ITEM', 'PT_ORG_DS_ID', 'DMC', 'TEST_CLASS']$$
+728$$tc_part_type$$*_UIN$$custom$$"{\"type\": \"regex\", \"x\": \"[A-Z]\\\\d{4}[A-Z]\"}"$$0$$0$$false$$$$Column(s) ['*_UIN'] missing. Table has the following columns: ['PART_TYPE_ID', 'NSN', 'LEVEL_1_DESC', 'LEVEL_2_DESC', 'LEVEL_3_DESC', 'LEVEL_4_DESC', 'EQUIPMENT_TYPE', 'MAC', 'EQUIPMENT_UNLADEN_WEIGHT', 'EQUIPMENT_WIDTH', 'EQUIPMENT_HEIGHT', 'DESIGN_GROSS_VEHICLE_WEIGHT', 'EQUIP_WEIGHT_TYPE', 'EQUIPMENT_FAMILY_GROUP', 'PT_NAME', 'PT_UIN', 'EQUIPMENT_CATEGORY', 'FUEL_TYPE', 'PREFERRED_SUPPORT', 'ESP_SPECIFIC', 'ESP_COMMON', 'PRIMARY_USAGE_COUNTER', 'LEAR_CODE', 'LEAR_CODE_DESC', 'SPARE_COST', 'EQUIPMENT_LENGTH', 'MAM', 'GTW', 'SUPPORT_DETAILS', 'LIFTING_TACKLE', 'OBSOLETE', 'DATE_OBSOLETED', 'OBSOLETED_BY_MJDI', 'DATE_OBSOLETED_BY_MJDI', 'OUT_OF_SERVICE_DATE', 'EBS_ITEM', 'PT_ORG_DS_ID', 'DMC', 'TEST_CLASS']$$
+235$$tc_part_type$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+483$$tc_rep_act_spares_req$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+701$$tc_req_responses$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
+682$$tc_requisitions$$NSN$$in$$"{\"dictionary\": \"JAMES_R_TC_CALCULATED_OPER_PARAM__NIN\"}"$$0$$0$$false$$$$"failed to perform join on 'NSN': Traceback (most recent call last):
+  File \"/tmp/module.zip/dq/engine/runtime.py\", line 146, in create_runnable_rules_checker_df
+    rule_df = rule.apply_required_joins(df, self.spark)
+  File \"/tmp/module.zip/dq/engine/rules.py\", line 264, in apply_required_joins
+    .table(self.other_table))
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/session.py\", line 1055, in table
+    return DataFrame(self._jsparkSession.table(tableName), self)
+  File \"/opt/amazon/spark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py\", line 1321, in __call__
+    return_value = get_return_value(
+  File \"/opt/amazon/spark/python/lib/pyspark.zip/pyspark/sql/utils.py\", line 196, in deco
+    raise converted from None
+pyspark.sql.utils.AnalysisException: Table or view not found: dq.dictionaries;
+'UnresolvedRelation [dq, dictionaries], [], false"$$
