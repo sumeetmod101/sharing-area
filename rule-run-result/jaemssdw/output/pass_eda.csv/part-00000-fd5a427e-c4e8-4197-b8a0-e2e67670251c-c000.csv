@@ -1,0 +1,442 @@
+rule_id$$table$$columns$$check$$check_details$$required$$valid$$hasSample$$tags$$errorMessage$$failedRowsSample
+54$$tc_act_sec_usage$$ASSETID$$length$$"{\"max\": 32}"$$2038568$$2038568$$false$$ICD-1.2$$$$
+55$$tc_act_sec_usage$$ASSETID$$complete$$$$2038568$$2038568$$false$$ICD-1.2$$$$
+63$$tc_act_sec_usage$$DELETEFLAG$$length$$"{\"max\": 1}"$$2038568$$2038568$$false$$ICD-1.2$$$$
+64$$tc_act_sec_usage$$DELETEFLAG$$complete$$$$2038568$$2038568$$false$$ICD-1.2$$$$
+646$$tc_act_sec_usage$$ENDVALUE$$length$$"{\"max\": 22}"$$2038568$$2038568$$false$$ADW-ICD-1.8$$$$
+57$$tc_act_sec_usage$$EVENTID$$length$$"{\"max\": 32}"$$2038568$$2038568$$false$$ICD-1.2$$$$
+58$$tc_act_sec_usage$$EVENTID$$complete$$$$2038568$$2038568$$false$$ICD-1.2$$$$
+648$$tc_act_sec_usage$$EVENTUSAGE$$length$$"{\"max\": 22}"$$2038568$$2038568$$false$$ADW-ICD-1.8$$$$
+650$$tc_act_sec_usage$$STARTVALUE$$length$$"{\"max\": 22}"$$2038568$$2038568$$false$$ADW-ICD-1.8$$$$
+60$$tc_act_sec_usage$$USAGEPARAMETERVALUE$$length$$"{\"max\": 30}"$$2038568$$2038568$$false$$ICD-1.2$$$$
+61$$tc_act_sec_usage$$USAGEPARAMETERVALUE$$complete$$$$2038568$$2038568$$false$$ICD-1.2$$$$
+652$$tc_activity$$ACTIVITYPLANNEDEND$$complete$$$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+653$$tc_activity$$ACTIVITYPLANNEDSTART$$complete$$$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+120$$tc_activity$$ACTIVITYSPECIALINSTRUCTIONS$$length$$"{\"max\": 4000}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+114$$tc_activity$$ACTIVITYTYPE$$length$$"{\"max\": 255}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+115$$tc_activity$$ACTIVITYTYPE$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+117$$tc_activity$$ACTIVITYTYPEDESCRIPTION$$length$$"{\"max\": 500}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+654$$tc_activity$$ASSETID$$length$$"{\"max\": 32}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+66$$tc_activity$$ASSETID$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+67$$tc_activity$$ASSETID$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+655$$tc_activity$$ATUDCONTROLNUMBER$$length$$"{\"max\": 40}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+75$$tc_activity$$ATUDCONTROLNUMBER$$length$$"{\"max\": 255}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+76$$tc_activity$$ATUDCONTROLNUMBER$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+77$$tc_activity$$ATUDCONTROLNUMBER$$unique$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+657$$tc_activity$$ATUDSTARTDATE$$complete$$$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+658$$tc_activity$$AUTHINITIALS$$length$$"{\"max\": 100}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+81$$tc_activity$$AUTHINITIALS$$length$$"{\"max\": 20}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+659$$tc_activity$$AUTHSERVICENUMBER$$length$$"{\"max\": 20}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+87$$tc_activity$$AUTHSERVICENUMBER$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+88$$tc_activity$$AUTHSERVICENUMBER$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+660$$tc_activity$$AUTHSURNAME$$length$$"{\"max\": 100}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+84$$tc_activity$$AUTHSURNAME$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+123$$tc_activity$$DELETEFLAG$$length$$"{\"max\": 1}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+124$$tc_activity$$DELETEFLAG$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+661$$tc_activity$$DESCRIPTION$$length$$"{\"max\": 2000}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+78$$tc_activity$$DESCRIPTION$$length$$"{\"max\": 20}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+662$$tc_activity$$DESTINATION$$length$$"{\"max\": 40}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+96$$tc_activity$$DESTINATION$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+126$$tc_activity$$DRIVERNAME$$length$$"{\"max\": 255}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+663$$tc_activity$$DRIVERNAME$$length$$"{\"max\": 100}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+108$$tc_activity$$DRIVERRANK$$length$$"{\"max\": 20}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+111$$tc_activity$$DRIVERSERVICENUMBER$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+664$$tc_activity$$DRIVERSERVICENUMBER$$length$$"{\"max\": 11}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+665$$tc_activity$$ENDODO$$length$$"{\"max\": 22}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+666$$tc_activity$$EVENTID$$length$$"{\"max\": 32}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+69$$tc_activity$$EVENTID$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+70$$tc_activity$$EVENTID$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+71$$tc_activity$$EVENTID$$unique$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+667$$tc_activity$$EVENTNAME$$length$$"{\"max\": 40}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+90$$tc_activity$$EVENTNAME$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+91$$tc_activity$$EVENTNAME$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+668$$tc_activity$$EVENTOWNERNAME$$length$$"{\"max\": 60}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+93$$tc_activity$$EVENTOWNERNAME$$length$$"{\"max\": 100}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+94$$tc_activity$$EVENTOWNERNAME$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+669$$tc_activity$$EVENTOWNERUIN$$length$$"{\"max\": 6}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+99$$tc_activity$$EVENTOWNERUIN$$length$$"{\"max\": 20}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+670$$tc_activity$$EVENTUSAGE$$length$$"{\"max\": 22}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+671$$tc_activity$$FUELDRAWNSUM$$length$$"{\"max\": 15}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+672$$tc_activity$$STARTODO$$length$$"{\"max\": 22}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+105$$tc_activity$$UNITIDENTITYNUMBER$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+673$$tc_activity$$UNITIDENTITYNUMBER$$length$$"{\"max\": 6}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+102$$tc_activity$$USAGECOUNTERTYPE$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+103$$tc_activity$$USAGECOUNTERTYPE$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+674$$tc_activity$$USAGECOUNTERTYPE$$length$$"{\"max\": 30}"$$5268359$$5268359$$false$$ADW-ICD-1.8$$$$
+72$$tc_activity$$USAGECOUNTERUNIT$$length$$"{\"max\": 50}"$$5268359$$5268359$$false$$ICD-1.2$$$$
+73$$tc_activity$$USAGECOUNTERUNIT$$complete$$$$5268359$$5268359$$false$$ICD-1.2$$$$
+2$$tc_asset_fleet_idents$$ASSETDSID$$complete$$$$42243$$42243$$false$$$$$$
+3$$tc_asset_fleet_idents$$ASSETDSID$$length$$"{\"max\": 32}"$$42243$$42243$$false$$$$$$
+0$$tc_asset_fleet_idents$$ASSETDSID,FLEETIDENTID$$unique$$$$42243$$42243$$false$$$$$$
+9$$tc_asset_fleet_idents$$DELETEFLAG$$in$$"{\"set\": [\"Y\", \"N\"]}"$$42243$$42243$$false$$$$$$
+4$$tc_asset_fleet_idents$$FLEETID$$complete$$$$42243$$42243$$false$$$$$$
+5$$tc_asset_fleet_idents$$FLEETIDENTID$$complete$$$$42243$$42243$$false$$$$$$
+6$$tc_asset_fleet_idents$$FLEETIDENTID$$length$$"{\"max\": 500}"$$42243$$42243$$false$$$$$$
+10$$tc_asset_fleet_idents$$LASTQUERIEDDATE$$complete$$$$42243$$42243$$false$$$$$$
+8$$tc_asset_fleet_idents$$READINESSCODE$$length$$"{\"max\": 500}"$$42243$$42243$$false$$$$$$
+150$$tc_calculated_oper_param$$CALCULATIONFORMULA$$length$$"{\"max\": 4000}"$$0$$0$$false$$ICD-1.2$$$$
+151$$tc_calculated_oper_param$$CALCULATIONFORMULA$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+152$$tc_calculated_oper_param$$CALCULATIONFORMULA$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+153$$tc_calculated_oper_param$$DELETEFLAG$$length$$"{\"max\": 1}"$$0$$0$$false$$ICD-1.2$$$$
+154$$tc_calculated_oper_param$$DELETEFLAG$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+155$$tc_calculated_oper_param$$DELETEFLAG$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+135$$tc_calculated_oper_param$$LEVEL1DESC$$length$$"{\"max\": 35}"$$0$$0$$false$$ICD-1.2$$$$
+136$$tc_calculated_oper_param$$LEVEL1DESC$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+137$$tc_calculated_oper_param$$LEVEL1DESC$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+138$$tc_calculated_oper_param$$LEVEL2DESC$$length$$"{\"max\": 35}"$$0$$0$$false$$ICD-1.2$$$$
+139$$tc_calculated_oper_param$$LEVEL2DESC$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+140$$tc_calculated_oper_param$$LEVEL2DESC$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+141$$tc_calculated_oper_param$$LEVEL3DESC$$length$$"{\"max\": 64}"$$0$$0$$false$$ICD-1.2$$$$
+142$$tc_calculated_oper_param$$LEVEL3DESC$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+143$$tc_calculated_oper_param$$LEVEL3DESC$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+132$$tc_calculated_oper_param$$NSN$$length$$"{\"max\": 50}"$$0$$0$$false$$ICD-1.2$$$$
+133$$tc_calculated_oper_param$$NSN$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+134$$tc_calculated_oper_param$$NSN$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+129$$tc_calculated_oper_param$$OPERPARAMDSID$$length$$"{\"max\": 32}"$$0$$0$$false$$ICD-1.2$$$$
+130$$tc_calculated_oper_param$$OPERPARAMDSID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+131$$tc_calculated_oper_param$$OPERPARAMDSID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+147$$tc_calculated_oper_param$$USAGEPARAMCODE$$length$$"{\"max\": 30}"$$0$$0$$false$$ICD-1.2$$$$
+148$$tc_calculated_oper_param$$USAGEPARAMCODE$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+149$$tc_calculated_oper_param$$USAGEPARAMCODE$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+144$$tc_calculated_oper_param$$USAGEPARAMETERNAME$$length$$"{\"max\": 30}"$$0$$0$$false$$ICD-1.2$$$$
+145$$tc_calculated_oper_param$$USAGEPARAMETERNAME$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+146$$tc_calculated_oper_param$$USAGEPARAMETERNAME$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+213$$tc_equipment$$ACSTATE$$length$$"{\"max\": 300}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+214$$tc_equipment$$ACSTATE$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+225$$tc_equipment$$ADRCOMPLAINT$$length$$"{\"max\": 3}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+226$$tc_equipment$$ADRCOMPLAINT$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+171$$tc_equipment$$ALTERNATEERM$$length$$"{\"max\": 10}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+156$$tc_equipment$$ASSETID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+157$$tc_equipment$$ASSETID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+158$$tc_equipment$$ASSETID$$unique$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+249$$tc_equipment$$ASSETUID$$length$$"{\"max\": 50}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+210$$tc_equipment$$COLOUR$$length$$"{\"max\": 100}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+198$$tc_equipment$$CUSTJAMORGID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+199$$tc_equipment$$CUSTJAMORGID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+201$$tc_equipment$$CUSTODIANORGID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+202$$tc_equipment$$CUSTODIANORGID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+195$$tc_equipment$$CUSTODIANUIN$$length$$"{\"max\": 20}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+192$$tc_equipment$$CUSTODIANUNIT$$length$$"{\"max\": 100}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+193$$tc_equipment$$CUSTODIANUNIT$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+246$$tc_equipment$$DELETEFLAG$$length$$"{\"max\": 1}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+247$$tc_equipment$$DELETEFLAG$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+207$$tc_equipment$$EQUIPMENTFAMILYGROUP$$length$$"{\"max\": 100}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+208$$tc_equipment$$EQUIPMENTFAMILYGROUP$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+204$$tc_equipment$$EQUIPMENTSTATE$$length$$"{\"max\": 20}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+205$$tc_equipment$$EQUIPMENTSTATE$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+168$$tc_equipment$$ERM$$length$$"{\"max\": 30}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+180$$tc_equipment$$HOLDERNAME$$length$$"{\"max\": 100}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+181$$tc_equipment$$HOLDERNAME$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+189$$tc_equipment$$HOLDERORGID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+190$$tc_equipment$$HOLDERORGID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+183$$tc_equipment$$HOLDERUIN$$length$$"{\"max\": 20}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+186$$tc_equipment$$HOLDINGJAMORGID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+187$$tc_equipment$$HOLDINGJAMORGID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+216$$tc_equipment$$INUSEPLACEMENT$$length$$"{\"max\": 35}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+222$$tc_equipment$$MAINTENANCEGROUP$$length$$"{\"max\": 300}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+223$$tc_equipment$$MAINTENANCEGROUP$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+177$$tc_equipment$$MAXAUTHMASS$$length$$"{\"max\": 20}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+165$$tc_equipment$$NSN$$length$$"{\"max\": 20}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+166$$tc_equipment$$NSN$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+228$$tc_equipment$$PARTTYPEID$$length$$"{\"max\": 32}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+229$$tc_equipment$$PARTTYPEID$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+237$$tc_equipment$$PLATFORMBCIP$$length$$"{\"max\": 332}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+234$$tc_equipment$$PLATFORMBCIPBASELINE$$length$$"{\"max\": 332}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+219$$tc_equipment$$READINESSLEVEL$$length$$"{\"max\": 4000}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+174$$tc_equipment$$SERIALNUMBER$$length$$"{\"max\": 35}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+175$$tc_equipment$$SERIALNUMBER$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+159$$tc_equipment$$STATE$$length$$"{\"max\": 100}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+160$$tc_equipment$$STATE$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+240$$tc_equipment$$STORAGEAREA$$length$$"{\"max\": 50}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+243$$tc_equipment$$STORAGELOCATION$$length$$"{\"max\": 13}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+231$$tc_equipment$$USAGECOUNTERTYPE$$length$$"{\"max\": 30}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+232$$tc_equipment$$USAGECOUNTERTYPE$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+162$$tc_equipment$$USAGECOUNTERUNIT$$length$$"{\"max\": 50}"$$2041365$$2041365$$false$$ICD-1.2$$$$
+163$$tc_equipment$$USAGECOUNTERUNIT$$complete$$$$2041365$$2041365$$false$$ICD-1.2$$$$
+276$$tc_maint_assoc$$COUNTER$$length$$"{\"max\": 30}"$$197830$$197830$$false$$ICD-1.2$$$$
+285$$tc_maint_assoc$$DELETEFLAG$$length$$"{\"max\": 1}"$$197830$$197830$$false$$ICD-1.2$$$$
+286$$tc_maint_assoc$$DELETEFLAG$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+282$$tc_maint_assoc$$EVENTTYPE$$length$$"{\"max\": 500}"$$197830$$197830$$false$$ICD-1.2$$$$
+267$$tc_maint_assoc$$MAINTENANCEGROUP$$length$$"{\"max\": 30}"$$197830$$197830$$false$$ICD-1.2$$$$
+268$$tc_maint_assoc$$MAINTENANCEGROUP$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+279$$tc_maint_assoc$$MAINTENANCESENTENCE$$length$$"{\"max\": 2000}"$$197830$$197830$$false$$ICD-1.2$$$$
+264$$tc_maint_assoc$$NAME$$length$$"{\"max\": 150}"$$197830$$197830$$false$$ICD-1.2$$$$
+265$$tc_maint_assoc$$NAME$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+261$$tc_maint_assoc$$NSN$$length$$"{\"max\": 50}"$$197830$$197830$$false$$ICD-1.2$$$$
+262$$tc_maint_assoc$$NSN$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+252$$tc_maint_assoc$$PARTTYPEID$$length$$"{\"max\": 32}"$$197830$$197830$$false$$ICD-1.2$$$$
+253$$tc_maint_assoc$$PARTTYPEID$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+270$$tc_maint_assoc$$REPAIRLEVEL$$length$$"{\"max\": 500}"$$197830$$197830$$false$$ICD-1.2$$$$
+271$$tc_maint_assoc$$REPAIRLEVEL$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+255$$tc_maint_assoc$$RULEID$$length$$"{\"max\": 32}"$$197830$$197830$$false$$ICD-1.2$$$$
+256$$tc_maint_assoc$$RULEID$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+258$$tc_maint_assoc$$TEMPLATEID$$length$$"{\"max\": 32}"$$197830$$197830$$false$$ICD-1.2$$$$
+259$$tc_maint_assoc$$TEMPLATEID$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+273$$tc_maint_assoc$$TRIGTYPE$$length$$"{\"max\": 500}"$$197830$$197830$$false$$ICD-1.2$$$$
+274$$tc_maint_assoc$$TRIGTYPE$$complete$$$$197830$$197830$$false$$ICD-1.2$$$$
+291$$tc_maint_env_hist$$ASSETID$$length$$"{\"max\": 32}"$$3432891$$3432891$$false$$ICD-1.2$$$$
+292$$tc_maint_env_hist$$ASSETID$$complete$$$$3432891$$3432891$$false$$ICD-1.2$$$$
+297$$tc_maint_env_hist$$DELETEFLAG$$length$$"{\"max\": 1}"$$3432891$$3432891$$false$$ICD-1.2$$$$
+298$$tc_maint_env_hist$$DELETEFLAG$$complete$$$$3432891$$3432891$$false$$ICD-1.2$$$$
+288$$tc_maint_env_hist$$ENVHISTID$$length$$"{\"max\": 32}"$$3432891$$3432891$$false$$ICD-1.2$$$$
+289$$tc_maint_env_hist$$ENVHISTID$$complete$$$$3432891$$3432891$$false$$ICD-1.2$$$$
+290$$tc_maint_env_hist$$ENVHISTID$$unique$$$$3432891$$3432891$$false$$ICD-1.2$$$$
+294$$tc_maint_env_hist$$MAINTENVIRONMENTNAME$$length$$"{\"max\": 30}"$$3432891$$3432891$$false$$ICD-1.2$$$$
+295$$tc_maint_env_hist$$MAINTENVIRONMENTNAME$$complete$$$$3432891$$3432891$$false$$ICD-1.2$$$$
+303$$tc_maint_history$$ASSETID$$length$$"{\"max\": 50}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+304$$tc_maint_history$$ASSETID$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+719$$tc_maint_history$$ASSETID$$length$$"{\"max\": 32}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+720$$tc_maint_history$$CUMULATIVEATCLOSED$$length$$"{\"max\": 22}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+721$$tc_maint_history$$CURRENTUSAGEATCLOSE$$length$$"{\"max\": 22}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+318$$tc_maint_history$$DELETEFLAG$$length$$"{\"max\": 1}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+319$$tc_maint_history$$DELETEFLAG$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+312$$tc_maint_history$$MAINTENANCESTATUS$$length$$"{\"max\": 50}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+313$$tc_maint_history$$MAINTENANCESTATUS$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+722$$tc_maint_history$$MAINTENANCESTATUS$$length$$"{\"max\": 500}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+306$$tc_maint_history$$MAINTENVIRONMENTNAME$$length$$"{\"max\": 50}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+307$$tc_maint_history$$MAINTENVIRONMENTNAME$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+723$$tc_maint_history$$MAINTENVIRONMENTNAME$$length$$"{\"max\": 30}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+321$$tc_maint_history$$MAINTHISTORYID$$length$$"{\"max\": 100}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+322$$tc_maint_history$$MAINTHISTORYID$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+724$$tc_maint_history$$MAINTHISTORYID$$length$$"{\"max\": 32}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+309$$tc_maint_history$$MAINTTEMPLATEID$$length$$"{\"max\": 50}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+310$$tc_maint_history$$MAINTTEMPLATEID$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+725$$tc_maint_history$$MAINTTEMPLATEID$$length$$"{\"max\": 32}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+324$$tc_maint_history$$MAINTUSAGEID$$length$$"{\"max\": 100}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+325$$tc_maint_history$$MAINTUSAGEID$$complete$$$$18542193$$18542193$$false$$ICD-1.2$$$$
+726$$tc_maint_history$$MAINTUSAGEID$$length$$"{\"max\": 32}"$$18542193$$18542193$$false$$ADW-ICD-1.8$$$$
+315$$tc_maint_history$$OPERPARAMDISPLAYID$$length$$"{\"max\": 30}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+300$$tc_maint_history$$REPAIRACTIONID$$length$$"{\"max\": 50}"$$18542193$$18542193$$false$$ICD-1.2$$$$
+342$$tc_mod_codes$$ASEPNUMBERSPECIFIC$$length$$"{\"max\": 15}"$$15522$$15522$$false$$ICD-1.2$$$$
+343$$tc_mod_codes$$ASEPNUMBERSPECIFIC$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+348$$tc_mod_codes$$DELETEFLAG$$length$$"{\"max\": 1}"$$15522$$15522$$false$$ICD-1.2$$$$
+349$$tc_mod_codes$$DELETEFLAG$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+336$$tc_mod_codes$$MODCODE$$length$$"{\"max\": 40}"$$15522$$15522$$false$$ICD-1.2$$$$
+337$$tc_mod_codes$$MODCODE$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+339$$tc_mod_codes$$MODDESC$$length$$"{\"max\": 4000}"$$15522$$15522$$false$$ICD-1.2$$$$
+340$$tc_mod_codes$$MODDESC$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+345$$tc_mod_codes$$MODFAULTSTATE$$length$$"{\"max\": 2000}"$$15522$$15522$$false$$ICD-1.2$$$$
+346$$tc_mod_codes$$MODFAULTSTATE$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+327$$tc_mod_codes$$MODID$$length$$"{\"max\": 32}"$$15522$$15522$$false$$ICD-1.2$$$$
+328$$tc_mod_codes$$MODID$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+333$$tc_mod_codes$$NSN$$length$$"{\"max\": 50}"$$15522$$15522$$false$$ICD-1.2$$$$
+334$$tc_mod_codes$$NSN$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+330$$tc_mod_codes$$PARTTYPEID$$length$$"{\"max\": 32}"$$15522$$15522$$false$$ICD-1.2$$$$
+331$$tc_mod_codes$$PARTTYPEID$$complete$$$$15522$$15522$$false$$ICD-1.2$$$$
+354$$tc_mro_fault$$ASSETID$$length$$"{\"max\": 32}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+355$$tc_mro_fault$$ASSETID$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+372$$tc_mro_fault$$COMMENTS$$length$$"{\"max\": 3000}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+411$$tc_mro_fault$$DELETEFLAG$$length$$"{\"max\": 1}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+412$$tc_mro_fault$$DELETEFLAG$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+384$$tc_mro_fault$$FAULTACTUALREPORTEDBY$$length$$"{\"max\": 75}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+396$$tc_mro_fault$$FAULTCLOSEDBYNAME$$length$$"{\"max\": 75}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+402$$tc_mro_fault$$FAULTCLOSEDBYRANK$$length$$"{\"max\": 1000}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+399$$tc_mro_fault$$FAULTCLOSEDBYSERVICE$$length$$"{\"max\": 11}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+405$$tc_mro_fault$$FAULTCLOSEDBYTRADE$$length$$"{\"max\": 20}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+363$$tc_mro_fault$$FAULTDESCRIPTION$$length$$"{\"max\": 4000}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+364$$tc_mro_fault$$FAULTDESCRIPTION$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+357$$tc_mro_fault$$FAULTDISPLAYID$$length$$"{\"max\": 30}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+358$$tc_mro_fault$$FAULTDISPLAYID$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+359$$tc_mro_fault$$FAULTDISPLAYID$$unique$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+408$$tc_mro_fault$$FAULTGROUP$$length$$"{\"max\": 500}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+351$$tc_mro_fault$$FAULTID$$length$$"{\"max\": 32}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+352$$tc_mro_fault$$FAULTID$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+353$$tc_mro_fault$$FAULTID$$unique$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+378$$tc_mro_fault$$FAULTREPAIRLEVEL$$length$$"{\"max\": 500}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+390$$tc_mro_fault$$FAULTREPORTEDBYRANK$$length$$"{\"max\": 1000}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+387$$tc_mro_fault$$FAULTREPORTEDBYSERVICE$$length$$"{\"max\": 11}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+393$$tc_mro_fault$$FAULTREPORTEDBYTRADE$$length$$"{\"max\": 20}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+360$$tc_mro_fault$$FAULTSTATE$$length$$"{\"max\": 2000}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+361$$tc_mro_fault$$FAULTSTATE$$complete$$$$7828393$$7828393$$false$$ICD-1.2$$$$
+381$$tc_mro_fault$$REASONFORWORK$$length$$"{\"max\": 1500}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+366$$tc_mro_fault$$REPAIRUNIT$$length$$"{\"max\": 60}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+369$$tc_mro_fault$$REPAIRUNITUIN$$length$$"{\"max\": 6}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+375$$tc_mro_fault$$WORKCATEGORY$$length$$"{\"max\": 20}"$$7828393$$7828393$$false$$ICD-1.2$$$$
+417$$tc_mro_maint_mod_fault$$ASSETID$$length$$"{\"max\": 32}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+418$$tc_mro_maint_mod_fault$$ASSETID$$complete$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+456$$tc_mro_maint_mod_fault$$DELETEFLAG$$length$$"{\"max\": 1}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+457$$tc_mro_maint_mod_fault$$DELETEFLAG$$complete$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+743$$tc_mro_maint_mod_fault$$ESTIMATEDREPAIRTIME$$length$$"{\"max\": 22}"$$15592368$$15592368$$false$$ADW-ICD-1.8$$$$
+438$$tc_mro_maint_mod_fault$$FAULTCLOSEDBYNAME$$length$$"{\"max\": 75}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+444$$tc_mro_maint_mod_fault$$FAULTCLOSEDBYRANK$$length$$"{\"max\": 1000}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+441$$tc_mro_maint_mod_fault$$FAULTCLOSEDBYSERVICE$$length$$"{\"max\": 11}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+447$$tc_mro_maint_mod_fault$$FAULTCLOSEDBYTRADE$$length$$"{\"max\": 20}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+423$$tc_mro_maint_mod_fault$$FAULTDESCRIPTION$$length$$"{\"max\": 4000}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+424$$tc_mro_maint_mod_fault$$FAULTDESCRIPTION$$complete$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+414$$tc_mro_maint_mod_fault$$FAULTID$$length$$"{\"max\": 32}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+415$$tc_mro_maint_mod_fault$$FAULTID$$complete$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+416$$tc_mro_maint_mod_fault$$FAULTID$$unique$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+432$$tc_mro_maint_mod_fault$$FAULTREPAIRLEVEL$$length$$"{\"max\": 500}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+435$$tc_mro_maint_mod_fault$$REASONFORWORK$$length$$"{\"max\": 1500}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+450$$tc_mro_maint_mod_fault$$REPAIRSECTION$$length$$"{\"max\": 75}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+453$$tc_mro_maint_mod_fault$$REPAIRSECTIONLOCATION$$length$$"{\"max\": 100}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+426$$tc_mro_maint_mod_fault$$REPAIRUNIT$$length$$"{\"max\": 60}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+429$$tc_mro_maint_mod_fault$$REPAIRUNITUIN$$length$$"{\"max\": 6}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+420$$tc_mro_maint_mod_fault$$WORKCATEGORY$$length$$"{\"max\": 20}"$$15592368$$15592368$$false$$ICD-1.2$$$$
+421$$tc_mro_maint_mod_fault$$WORKCATEGORY$$complete$$$$15592368$$15592368$$false$$ICD-1.2$$$$
+459$$tc_non_event_usage$$ASSETID$$length$$"{\"max\": 32}"$$0$$0$$false$$ICD-1.2$$$$
+460$$tc_non_event_usage$$ASSETID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+461$$tc_non_event_usage$$ASSETID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+465$$tc_non_event_usage$$DELETEFLAG$$length$$"{\"max\": 1}"$$0$$0$$false$$ICD-1.2$$$$
+466$$tc_non_event_usage$$DELETEFLAG$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+467$$tc_non_event_usage$$DELETEFLAG$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+748$$tc_non_event_usage$$ENDVALUE$$complete$$$$0$$0$$false$$ADW-ICD-1.8$$$$
+749$$tc_non_event_usage$$EVENTUSAGE$$complete$$$$0$$0$$false$$ADW-ICD-1.8$$$$
+750$$tc_non_event_usage$$LOGDATE$$unique$$$$0$$0$$false$$ADW-ICD-1.8$$$$
+751$$tc_non_event_usage$$LOGDATE$$complete$$$$0$$0$$false$$ADW-ICD-1.8$$$$
+752$$tc_non_event_usage$$STARTVALUE$$complete$$$$0$$0$$false$$ADW-ICD-1.8$$$$
+462$$tc_non_event_usage$$USAGEPARAMETERNAME$$length$$"{\"max\": 30}"$$0$$0$$false$$ICD-1.2$$$$
+463$$tc_non_event_usage$$USAGEPARAMETERNAME$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+464$$tc_non_event_usage$$USAGEPARAMETERNAME$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+504$$tc_org_data$$DELETEFLAG$$length$$"{\"max\": 1}"$$0$$0$$false$$ICD-1.2$$$$
+505$$tc_org_data$$DELETEFLAG$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+506$$tc_org_data$$DELETEFLAG$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+501$$tc_org_data$$OPCOMORGANISATIONUID$$length$$"{\"max\": 10}"$$0$$0$$false$$ICD-1.2$$$$
+502$$tc_org_data$$OPCOMORGANISATIONUID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+503$$tc_org_data$$OPCOMORGANISATIONUID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+495$$tc_org_data$$OPCOMUNITID$$length$$"{\"max\": 10}"$$0$$0$$false$$ICD-1.2$$$$
+496$$tc_org_data$$OPCOMUNITID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+497$$tc_org_data$$OPCOMUNITID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+471$$tc_org_data$$ORGANISATIONDSID$$length$$"{\"max\": 32}"$$0$$0$$false$$ICD-1.2$$$$
+472$$tc_org_data$$ORGANISATIONDSID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+473$$tc_org_data$$ORGANISATIONDSID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+468$$tc_org_data$$ORGANISATIONID$$length$$"{\"max\": 10}"$$0$$0$$false$$ICD-1.2$$$$
+469$$tc_org_data$$ORGANISATIONID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+470$$tc_org_data$$ORGANISATIONID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+474$$tc_org_data$$ORGANISATIONLEVELTYPE$$length$$"{\"max\": 200}"$$0$$0$$false$$ICD-1.2$$$$
+475$$tc_org_data$$ORGANISATIONLEVELTYPE$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+476$$tc_org_data$$ORGANISATIONLEVELTYPE$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+477$$tc_org_data$$ORGANISATIONNAME$$length$$"{\"max\": 100}"$$0$$0$$false$$ICD-1.2$$$$
+478$$tc_org_data$$ORGANISATIONNAME$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+479$$tc_org_data$$ORGANISATIONNAME$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+480$$tc_org_data$$ORGANISATIONSHORTNAME$$length$$"{\"max\": 60}"$$0$$0$$false$$ICD-1.2$$$$
+481$$tc_org_data$$ORGANISATIONSHORTNAME$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+482$$tc_org_data$$ORGANISATIONSHORTNAME$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+489$$tc_org_data$$ORGANISATIONUIN$$length$$"{\"max\": 6}"$$0$$0$$false$$ICD-1.2$$$$
+490$$tc_org_data$$ORGANISATIONUIN$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+491$$tc_org_data$$ORGANISATIONUIN$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+483$$tc_org_data$$PARENTORGANISATIONDSID$$length$$"{\"max\": 32}"$$0$$0$$false$$ICD-1.2$$$$
+484$$tc_org_data$$PARENTORGANISATIONDSID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+485$$tc_org_data$$PARENTORGANISATIONDSID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+486$$tc_org_data$$PARENTORGANISATIONID$$length$$"{\"max\": 10}"$$0$$0$$false$$ICD-1.2$$$$
+487$$tc_org_data$$PARENTORGANISATIONID$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+488$$tc_org_data$$PARENTORGANISATIONID$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+498$$tc_org_data$$PARENTORGANISATIONNAME$$length$$"{\"max\": 100}"$$0$$0$$false$$ICD-1.2$$$$
+499$$tc_org_data$$PARENTORGANISATIONNAME$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+500$$tc_org_data$$PARENTORGANISATIONNAME$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+492$$tc_org_data$$PRECEDENCECODE$$length$$"{\"max\": 40}"$$0$$0$$false$$ICD-1.2$$$$
+493$$tc_org_data$$PRECEDENCECODE$$complete$$$$0$$0$$false$$ICD-1.2$$$$
+494$$tc_org_data$$PRECEDENCECODE$$unique$$$$0$$0$$false$$ICD-1.2$$$$
+34$$tc_part_type$$EQUIPMENTCATEGORY$$complete$$$$13009$$13009$$false$$$$$$
+30$$tc_part_type$$EQUIPMENTFAMILYGROUP$$complete$$$$13009$$13009$$false$$$$$$
+31$$tc_part_type$$EQUIPMENTFAMILYGROUP$$length$$"{\"max\": 500}"$$13009$$13009$$false$$$$$$
+25$$tc_part_type$$EQUIPMENTTYPE$$length$$"{\"max\": 255}"$$13009$$13009$$false$$$$$$
+28$$tc_part_type$$EQUIPWEIGHTTYPE$$length$$"{\"max\": 500}"$$13009$$13009$$false$$$$$$
+29$$tc_part_type$$EQUIPWEIGHTTYPE$$in_sync$$"{\"with\": \"jmraw.TC_PART_TYPE.EQUIP_WEIGHT_TYPE\", \"values\": \"this\", \"keys\": [{\"this\": \"PARTTYPEID\", \"other\": \"PART_TYPE_ID\"}]}"$$13009$$13009$$false$$$$$$
+39$$tc_part_type$$ESPCOMMON$$length$$"{\"max\": 20}"$$13009$$13009$$false$$$$$$
+38$$tc_part_type$$ESPSPECIFIC$$length$$"{\"max\": 15}"$$13009$$13009$$false$$$$$$
+35$$tc_part_type$$FUELTYPE$$length$$"{\"max\": 500}"$$13009$$13009$$false$$$$$$
+42$$tc_part_type$$LEARCODE$$length$$"{\"max\": 255}"$$13009$$13009$$false$$$$$$
+18$$tc_part_type$$LEVEL1DESC$$complete$$$$13009$$13009$$false$$$$$$
+19$$tc_part_type$$LEVEL1DESC$$length$$"{\"max\": 35}"$$13009$$13009$$false$$$$$$
+20$$tc_part_type$$LEVEL2DESC$$complete$$$$13009$$13009$$false$$$$$$
+21$$tc_part_type$$LEVEL2DESC$$length$$"{\"max\": 35}"$$13009$$13009$$false$$$$$$
+22$$tc_part_type$$LEVEL3DESC$$complete$$$$13009$$13009$$false$$$$$$
+23$$tc_part_type$$LEVEL3DESC$$length$$"{\"max\": 256}"$$13009$$13009$$false$$$$$$
+24$$tc_part_type$$LEVEL4DESC$$length$$"{\"max\": 640}"$$13009$$13009$$false$$$$$$
+15$$tc_part_type$$NSN$$complete$$$$13009$$13009$$false$$$$$$
+16$$tc_part_type$$NSN$$length$$"{\"max\": 50}"$$13009$$13009$$false$$$$$$
+12$$tc_part_type$$PARTTYPEID$$unique$$$$13009$$13009$$false$$$$$$
+13$$tc_part_type$$PARTTYPEID$$complete$$$$13009$$13009$$false$$$$$$
+14$$tc_part_type$$PARTTYPEID$$length$$"{\"max\": 32}"$$13009$$13009$$false$$$$$$
+37$$tc_part_type$$PREFERREDSUPPORT$$length$$"{\"max\": 500}"$$13009$$13009$$false$$$$$$
+40$$tc_part_type$$PRIMARYUSAGECOUNTER$$complete$$$$13009$$13009$$false$$$$$$
+41$$tc_part_type$$PRIMARYUSAGECOUNTER$$length$$"{\"max\": 30}"$$13009$$13009$$false$$$$$$
+44$$tc_part_type$$SUPPORTDETAILS$$length$$"{\"max\": 250}"$$13009$$13009$$false$$$$$$
+513$$tc_ra_time$$CERTIFIER$$length$$"{\"max\": 3}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+514$$tc_ra_time$$CERTIFIER$$complete$$$$26495667$$26495667$$false$$ICD-1.2$$$$
+528$$tc_ra_time$$DELETEFLAG$$length$$"{\"max\": 1}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+529$$tc_ra_time$$DELETEFLAG$$complete$$$$26495667$$26495667$$false$$ICD-1.2$$$$
+519$$tc_ra_time$$RANK$$length$$"{\"max\": 20}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+507$$tc_ra_time$$RATIMEID$$length$$"{\"max\": 32}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+508$$tc_ra_time$$RATIMEID$$complete$$$$26495667$$26495667$$false$$ICD-1.2$$$$
+509$$tc_ra_time$$RATIMEID$$unique$$$$26495667$$26495667$$false$$ICD-1.2$$$$
+510$$tc_ra_time$$REPAIRACTIONID$$length$$"{\"max\": 32}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+511$$tc_ra_time$$REPAIRACTIONID$$complete$$$$26495667$$26495667$$false$$ICD-1.2$$$$
+516$$tc_ra_time$$REPAIRERNAME$$length$$"{\"max\": 75}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+522$$tc_ra_time$$SERVICENUMBER$$length$$"{\"max\": 11}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+525$$tc_ra_time$$TRADE$$length$$"{\"max\": 20}"$$26495667$$26495667$$false$$ICD-1.2$$$$
+549$$tc_rep_act_spares_used$$DELETEFLAG$$length$$"{\"max\": 1}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+550$$tc_rep_act_spares_used$$DELETEFLAG$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+546$$tc_rep_act_spares_used$$ISSPARECONSUMED$$length$$"{\"max\": 5}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+534$$tc_rep_act_spares_used$$NSN$$length$$"{\"max\": 50}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+535$$tc_rep_act_spares_used$$NSN$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+764$$tc_rep_act_spares_used$$QUANTITYOFITEMSNOTUSED$$complete$$$$2076019$$2076019$$false$$ADW-ICD-1.8$$$$
+765$$tc_rep_act_spares_used$$QUANTITYOFITEMSNOTUSED$$length$$"{\"max\": 22}"$$2076019$$2076019$$false$$ADW-ICD-1.8$$$$
+766$$tc_rep_act_spares_used$$QUANTITYOFITEMSUSED$$complete$$$$2076019$$2076019$$false$$ADW-ICD-1.8$$$$
+767$$tc_rep_act_spares_used$$QUANTITYOFITEMSUSED$$length$$"{\"max\": 22}"$$2076019$$2076019$$false$$ADW-ICD-1.8$$$$
+540$$tc_rep_act_spares_used$$REPAIRACTIONDSID$$length$$"{\"max\": 32}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+541$$tc_rep_act_spares_used$$REPAIRACTIONDSID$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+543$$tc_rep_act_spares_used$$REQUIREDNUMBER$$length$$"{\"max\": 5}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+544$$tc_rep_act_spares_used$$REQUIREDNUMBER$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+537$$tc_rep_act_spares_used$$SPAREDESCRIPTION$$length$$"{\"max\": 64}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+538$$tc_rep_act_spares_used$$SPAREDESCRIPTION$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+531$$tc_rep_act_spares_used$$SPAREUSEID$$length$$"{\"max\": 32}"$$2076019$$2076019$$false$$ICD-1.2$$$$
+532$$tc_rep_act_spares_used$$SPAREUSEID$$complete$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+533$$tc_rep_act_spares_used$$SPAREUSEID$$unique$$$$2076019$$2076019$$false$$ICD-1.2$$$$
+561$$tc_repair_acts$$CANDIDATESRAFLAG$$length$$"{\"max\": 3}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+562$$tc_repair_acts$$CANDIDATESRAFLAG$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+597$$tc_repair_acts$$DELETEFLAG$$length$$"{\"max\": 1}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+598$$tc_repair_acts$$DELETEFLAG$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+555$$tc_repair_acts$$FAULTID$$length$$"{\"max\": 32}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+556$$tc_repair_acts$$FAULTID$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+579$$tc_repair_acts$$INSPECTIONRESULT$$length$$"{\"max\": 500}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+591$$tc_repair_acts$$RACONDITION$$length$$"{\"max\": 2000}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+588$$tc_repair_acts$$RAREPAIRLEVEL$$length$$"{\"max\": 500}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+585$$tc_repair_acts$$RATYPE$$length$$"{\"max\": 500}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+594$$tc_repair_acts$$REPAIRACTIONCOMMENTS$$length$$"{\"max\": 4000}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+558$$tc_repair_acts$$REPAIRACTIONDESCRIPTION$$length$$"{\"max\": 4000}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+559$$tc_repair_acts$$REPAIRACTIONDESCRIPTION$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+552$$tc_repair_acts$$REPAIRACTIONID$$length$$"{\"max\": 32}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+553$$tc_repair_acts$$REPAIRACTIONID$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+554$$tc_repair_acts$$REPAIRACTIONID$$unique$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+564$$tc_repair_acts$$REPAIREDDURINGINSPECTION$$length$$"{\"max\": 3}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+565$$tc_repair_acts$$REPAIREDDURINGINSPECTION$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+573$$tc_repair_acts$$REPAIRSECTION$$length$$"{\"max\": 75}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+576$$tc_repair_acts$$REPAIRSECTIONLOCATION$$length$$"{\"max\": 100}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+570$$tc_repair_acts$$SUBSYSTEM$$length$$"{\"max\": 50}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+567$$tc_repair_acts$$SYSTEM$$length$$"{\"max\": 110}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+582$$tc_repair_acts$$WORKSTATUS$$length$$"{\"max\": 500}"$$16523597$$16523597$$false$$ICD-1.2$$$$
+583$$tc_repair_acts$$WORKSTATUS$$complete$$$$16523597$$16523597$$false$$ICD-1.2$$$$
+612$$tc_supply_issue_id$$DELETEFLAG$$length$$"{\"max\": 1}"$$1323082$$1323082$$false$$ICD-1.2$$$$
+613$$tc_supply_issue_id$$DELETEFLAG$$complete$$$$1323082$$1323082$$false$$ICD-1.2$$$$
+609$$tc_supply_issue_id$$ISSUEID$$length$$"{\"max\": 32}"$$1323082$$1323082$$false$$ICD-1.2$$$$
+610$$tc_supply_issue_id$$ISSUEID$$complete$$$$1323082$$1323082$$false$$ICD-1.2$$$$
+611$$tc_supply_issue_id$$ISSUEID$$unique$$$$1323082$$1323082$$false$$ICD-1.2$$$$
+603$$tc_supply_issue_id$$REPAIRACTIONDSID$$length$$"{\"max\": 32}"$$1323082$$1323082$$false$$ICD-1.2$$$$
+604$$tc_supply_issue_id$$REPAIRACTIONDSID$$complete$$$$1323082$$1323082$$false$$ICD-1.2$$$$
+600$$tc_supply_issue_id$$REQUISITIONID$$length$$"{\"max\": 32}"$$1323082$$1323082$$false$$ICD-1.2$$$$
+601$$tc_supply_issue_id$$REQUISITIONID$$complete$$$$1323082$$1323082$$false$$ICD-1.2$$$$
+768$$tc_supply_issue_id$$STORESREQUISITIONDATE$$complete$$$$1323082$$1323082$$false$$ADW-ICD-1.8$$$$
+606$$tc_supply_issue_id$$SUPPLYCHAINISSUEID$$length$$"{\"max\": 40}"$$1323082$$1323082$$false$$ICD-1.2$$$$
+627$$tc_type_usage_counters$$DELETEFLAG$$length$$"{\"max\": 1}"$$16277$$16277$$false$$ICD-1.2$$$$
+628$$tc_type_usage_counters$$DELETEFLAG$$complete$$$$16277$$16277$$false$$ICD-1.2$$$$
+621$$tc_type_usage_counters$$PARAMETERDESC$$length$$"{\"max\": 50}"$$16277$$16277$$false$$ICD-1.2$$$$
+622$$tc_type_usage_counters$$PARAMETERDESC$$complete$$$$16277$$16277$$false$$ICD-1.2$$$$
+615$$tc_type_usage_counters$$PARTTYPEID$$length$$"{\"max\": 32}"$$16277$$16277$$false$$ICD-1.2$$$$
+616$$tc_type_usage_counters$$PARTTYPEID$$complete$$$$16277$$16277$$false$$ICD-1.2$$$$
+624$$tc_type_usage_counters$$USAGECATEGORY$$length$$"{\"max\": 500}"$$16277$$16277$$false$$ICD-1.2$$$$
+625$$tc_type_usage_counters$$USAGECATEGORY$$complete$$$$16277$$16277$$false$$ICD-1.2$$$$
+618$$tc_type_usage_counters$$USAGEPARAMETERNAME$$length$$"{\"max\": 30}"$$16277$$16277$$false$$ICD-1.2$$$$
+619$$tc_type_usage_counters$$USAGEPARAMETERNAME$$complete$$$$16277$$16277$$false$$ICD-1.2$$$$
+642$$tc_work_requests$$DELETEFLAG$$length$$"{\"max\": 1}"$$2127977$$2127977$$false$$ICD-1.2$$$$
+643$$tc_work_requests$$DELETEFLAG$$complete$$$$2127977$$2127977$$false$$ICD-1.2$$$$
+630$$tc_work_requests$$FAULTID$$length$$"{\"max\": 32}"$$2127977$$2127977$$false$$ICD-1.2$$$$
+631$$tc_work_requests$$FAULTID$$complete$$$$2127977$$2127977$$false$$ICD-1.2$$$$
+639$$tc_work_requests$$JOBCARDSTATUS$$length$$"{\"max\": 32}"$$2127977$$2127977$$false$$ICD-1.2$$$$
+640$$tc_work_requests$$JOBCARDSTATUS$$complete$$$$2127977$$2127977$$false$$ICD-1.2$$$$
+636$$tc_work_requests$$REPAIRORGANISATION$$length$$"{\"max\": 60}"$$2127977$$2127977$$false$$ICD-1.2$$$$
+637$$tc_work_requests$$REPAIRORGANISATION$$complete$$$$2127977$$2127977$$false$$ICD-1.2$$$$
+744$$tc_work_requests$$REQUIREDBYDATE$$complete$$$$2127977$$2127977$$false$$ADW-ICD-1.8$$$$
+633$$tc_work_requests$$WORKREQUESTID$$length$$"{\"max\": 32}"$$2127977$$2127977$$false$$ICD-1.2$$$$
+634$$tc_work_requests$$WORKREQUESTID$$complete$$$$2127977$$2127977$$false$$ICD-1.2$$$$
